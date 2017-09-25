@@ -1,0 +1,30 @@
+ISim log file
+Running: C:\.Xilinx\USART\USART_TXtestbench_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/.Xilinx/USART/USART_TXtestbench_isim_beh.wdb 
+ISim P.28xd (signature 0xa0883be4)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+                   0clk=x,ready=x,reset=x,load=x,shift=x,din=xxxxxxxx,tx_data=x
+Finished circuit initialization process.
+                   0clk=1,ready=1,reset=0,load=1,shift=x,din=11001101,tx_data=x
+                   5clk=0,ready=0,reset=0,load=1,shift=x,din=11001101,tx_data=x
+                  10clk=1,ready=1,reset=0,load=1,shift=1,din=11001101,tx_data=1
+                  15clk=0,ready=0,reset=0,load=1,shift=1,din=11001101,tx_data=1
+                  20clk=1,ready=1,reset=0,load=1,shift=1,din=11001101,tx_data=1
+                  25clk=0,ready=0,reset=0,load=1,shift=1,din=11001101,tx_data=1
+                  30clk=1,ready=1,reset=0,load=1,shift=1,din=11001101,tx_data=0
+                  35clk=0,ready=0,reset=0,load=1,shift=1,din=11001101,tx_data=0
+                  40clk=1,ready=1,reset=0,load=1,shift=1,din=11001101,tx_data=0
+                  45clk=0,ready=0,reset=0,load=1,shift=1,din=11001101,tx_data=0
+                  50clk=1,ready=1,reset=0,load=1,shift=1,din=11001101,tx_data=1
+                  55clk=0,ready=0,reset=0,load=1,shift=1,din=11001101,tx_data=1
+                  60clk=1,ready=1,reset=0,load=1,shift=1,din=11001101,tx_data=1
+                  65clk=0,ready=0,reset=0,load=1,shift=1,din=11001101,tx_data=1
+                  70clk=1,ready=1,reset=0,load=1,shift=1,din=11001101,tx_data=0
+                  75clk=0,ready=0,reset=0,load=1,shift=1,din=11001101,tx_data=0
+                  80clk=1,ready=1,reset=0,load=1,shift=1,din=11001101,tx_data=1
+                  85clk=0,ready=0,reset=0,load=1,shift=1,din=11001101,tx_data=1
+Stopped at time : 90 ns : File "C:/.Xilinx/USART/USART.v" Line 98

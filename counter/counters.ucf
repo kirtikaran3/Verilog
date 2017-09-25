@@ -1,0 +1,8 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "clk" LOC = A7;
+NET "count[0]" LOC = M5;
+NET "count[1]" LOC = M11;
+NET "count[2]" LOC = P7;
+NET "count[3]" LOC = P6;

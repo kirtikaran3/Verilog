@@ -1,0 +1,17 @@
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/.Xilinx/ring_counter/ring_counter_isim_beh.exe -prj C:/.Xilinx/ring_counter/ring_counter_beh.prj work.ring_counter work.glbl 
+ISim P.28xd (signature 0xa0883be4)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/.Xilinx/ring_counter/ring_counter.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module ring_counter
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 2 Verilog Units
+Built simulation executable C:/.Xilinx/ring_counter/ring_counter_isim_beh.exe
+Fuse Memory Usage: 26180 KB
+Fuse CPU Usage: 421 ms

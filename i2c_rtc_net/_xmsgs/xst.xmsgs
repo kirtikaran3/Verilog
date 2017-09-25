@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompilers" num="258" delta="new" ><arg fmt="%s" index="1">&quot;i2c_rtc.v&quot; line 27 </arg>Range on redeclaration of &apos;<arg fmt="%s" index="2">sd_counter</arg>&apos; overrides range on output declaration at <arg fmt="%s" index="3">&quot;i2c_rtc.v&quot; line 20 </arg>
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="258" delta="new" ><arg fmt="%s" index="1">&quot;i2c_rtc.v&quot; line 27 </arg>Range on redeclaration of &apos;<arg fmt="%s" index="2">sd_counter</arg>&apos; overrides range on output declaration at <arg fmt="%s" index="3">&quot;i2c_rtc.v&quot; line 20 </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">72</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">76</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">78</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">80</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">81</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">82</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">83</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">84</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">85</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">86</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">87</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">88</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">92</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">93</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">94</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">95</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">96</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">97</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">98</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">99</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">100</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">103</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">104</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">105</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">106</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">107</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">108</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">109</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">110</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">111</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">115</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">116</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">117</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">118</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">119</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">120</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">121</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">122</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">123</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">126</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">127</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">128</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">129</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">130</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">131</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">132</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">133</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">134</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">138</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">i2c_rtc.v</arg>&quot; line <arg fmt="%d" index="2">139</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">sda_save&lt;9&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">sda_save&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+</messages>
+

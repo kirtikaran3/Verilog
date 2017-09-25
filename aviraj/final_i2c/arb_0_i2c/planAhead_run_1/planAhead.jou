@@ -1,0 +1,55 @@
+#-----------------------------------------------------------
+# PlanAhead v14.4 (64-bit)
+# Build 222254 by xbuild on Tue Dec 18 05:21:09 MST 2012
+# Start of session at: Mon Apr 17 00:26:50 2017
+# Process ID: 6752
+# Log file: E:/final_i2c/arb_0_i2c/planAhead_run_1/planAhead.log
+# Journal file: E:/final_i2c/arb_0_i2c/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source E:/final_i2c/arb_0_i2c/pa.fromNetlist.tcl
+startgroup
+set_property package_pin B2 [get_ports {lcd_d[7]}]
+endgroup
+startgroup
+set_property package_pin A3 [get_ports {lcd_d[6]}]
+endgroup
+startgroup
+set_property package_pin J3 [get_ports {lcd_d[5]}]
+endgroup
+startgroup
+set_property package_pin B5 [get_ports {lcd_d[4]}]
+endgroup
+startgroup
+set_property package_pin B6 [get_ports {lcd_d[3]}]
+endgroup
+startgroup
+set_property package_pin C6 [get_ports {lcd_d[2]}]
+endgroup
+set_property package_pin "" [get_ports [list  {lcd_d[3]}]]
+set_property package_pin "" [get_ports [list  {lcd_d[0]}]]
+startgroup
+set_property package_pin B6 [get_ports {lcd_d[2]}]
+endgroup
+startgroup
+set_property package_pin C6 [get_ports {lcd_d[3]}]
+endgroup
+startgroup
+set_property package_pin C5 [get_ports {lcd_d[1]}]
+endgroup
+startgroup
+set_property package_pin B7 [get_ports {lcd_d[0]}]
+endgroup
+startgroup
+set_property package_pin B8 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin N3 [get_ports rst]
+endgroup
+startgroup
+set_property package_pin A9 [get_ports lcd_e]
+endgroup
+startgroup
+set_property package_pin B9 [get_ports lcd_rw]
+endgroup
+save_constraints

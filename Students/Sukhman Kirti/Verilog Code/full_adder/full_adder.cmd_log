@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/.Xilinx/full_adder/full_adder.xst" -ofn "C:/.Xilinx/full_adder/full_adder.syr" 

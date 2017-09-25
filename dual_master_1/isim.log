@@ -1,0 +1,60 @@
+ISim log file
+Running: E:\final_i2c\dual_master_1\i2c_arb_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/final_i2c/dual_master_1/i2c_arb_tb_isim_beh.wdb 
+ISim P.49d (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+reset
+reset
+reset
+reset
+reset
+arb_idle
+start
+add match
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+reset
+reset
+reset
+reset
+reset
+arb_idle
+start
+add match
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+reset
+reset
+reset
+reset
+reset
+arb_idle
+start
+add match
+ISim P.49d (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+reset
+reset
+reset
+reset
+reset
+arb_idle
+start

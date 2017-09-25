@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/.Xilinx/fork_joinstatement/fork_joinstatement_isim_beh.exe" -prj "C:/.Xilinx/fork_joinstatement/fork_joinstatement_beh.prj" "work.fork_joinstatement" "work.glbl" 

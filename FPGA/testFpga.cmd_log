@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "C:/Users/Kirti Karan/Documents/verilog/FPGA/testFpga.xst" -ofn "C:/Users/Kirti Karan/Documents/verilog/FPGA/testFpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testFpga.ucf -p xc3s100e-cp132-4 "testFpga.ngc" testFpga.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o testFpga_map.ncd testFpga.ngd testFpga.pcf 
+par -w -intstyle ise -ol high -t 1 testFpga_map.ncd testFpga.ncd testFpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml testFpga.twx testFpga.ncd -o testFpga.twr testFpga.pcf -ucf testFpga.ucf 
+bitgen -intstyle ise -f testFpga.ut testFpga.ncd 
+bitgen -intstyle ise -f testFpga.ut testFpga.ncd 
+xst -intstyle ise -ifn "C:/Users/Kirti Karan/Documents/verilog/FPGA/testFpga.xst" -ofn "C:/Users/Kirti Karan/Documents/verilog/FPGA/testFpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testFpga.ucf -p xc3s100e-cp132-4 "testFpga.ngc" testFpga.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o testFpga_map.ncd testFpga.ngd testFpga.pcf 
+par -w -intstyle ise -ol high -t 1 testFpga_map.ncd testFpga.ncd testFpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml testFpga.twx testFpga.ncd -o testFpga.twr testFpga.pcf -ucf testFpga.ucf 
+xst -intstyle ise -ifn "C:/Users/Kirti Karan/Documents/verilog/FPGA/testFpga.xst" -ofn "C:/Users/Kirti Karan/Documents/verilog/FPGA/testFpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testFpga.ucf -p xc3s100e-cp132-4 "testFpga.ngc" testFpga.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o testFpga_map.ncd testFpga.ngd testFpga.pcf 
+par -w -intstyle ise -ol high -t 1 testFpga_map.ncd testFpga.ncd testFpga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml testFpga.twx testFpga.ncd -o testFpga.twr testFpga.pcf -ucf testFpga.ucf 
+bitgen -intstyle ise -f testFpga.ut testFpga.ncd 
+xst -intstyle ise -ifn "C:/Users/Kirti Karan/Documents/verilog/FPGA/testFpga.xst" -ofn "C:/Users/Kirti Karan/Documents/verilog/FPGA/testFpga.syr" 
+xst -intstyle ise -ifn "C:/Users/Kirti/Documents/verilog/FPGA/testFpga.xst" -ofn "C:/Users/Kirti/Documents/verilog/FPGA/testFpga.syr" 

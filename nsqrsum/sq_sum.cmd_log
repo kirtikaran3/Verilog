@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/kirti/Documents/verilog/test5nsum/sq_sum.xst" -ofn "C:/Users/kirti/Documents/verilog/test5nsum/sq_sum.syr" 
+xst -intstyle ise -ifn "C:/Users/kirti/Documents/verilog/test5nsum/sq_sum.xst" -ofn "C:/Users/kirti/Documents/verilog/test5nsum/sq_sum.syr" 

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/.Xilinx/exercise_delay/exercise_delay.xst" -ofn "C:/.Xilinx/exercise_delay/exercise_delay.syr" 

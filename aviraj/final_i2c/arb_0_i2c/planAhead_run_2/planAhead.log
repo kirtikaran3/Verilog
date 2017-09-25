@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# PlanAhead v14.4 (64-bit)
+# Build 222254 by xbuild on Tue Dec 18 05:21:09 MST 2012
+# Start of session at: Mon Apr 17 00:27:13 2017
+# Process ID: 6596
+# Log file: E:/final_i2c/arb_0_i2c/planAhead_run_2/planAhead.log
+# Journal file: E:/final_i2c/arb_0_i2c/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -868 day(s)
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source E:/final_i2c/arb_0_i2c/pa.fromHdl.tcl
+# create_project -name arb_0_i2c -dir "E:/final_i2c/arb_0_i2c/planAhead_run_2" -part xc3s100ecp132-4
+create_project: Time (s): elapsed = 00:00:06 . Memory (MB): peak = 415.949 ; gain = 64.680
+# set_param project.pinAheadLayout yes
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'get_property' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See E:/final_i2c/arb_0_i2c\planAhead_pid6596.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Mon Apr 17 00:27:40 2017...
+INFO: [Common 17-83] Releasing license: PlanAhead

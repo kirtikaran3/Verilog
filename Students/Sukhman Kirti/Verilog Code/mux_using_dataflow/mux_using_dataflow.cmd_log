@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/.Xilinx/mux_using_dataflow/mux_using_dataflow.xst" -ofn "C:/.Xilinx/mux_using_dataflow/mux_using_dataflow.syr" 

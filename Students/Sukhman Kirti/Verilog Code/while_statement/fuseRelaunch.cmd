@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/.Xilinx/while_statement/while_statement_isim_beh.exe" -prj "C:/.Xilinx/while_statement/while_statement_beh.prj" "work.while_statement" "work.glbl" 

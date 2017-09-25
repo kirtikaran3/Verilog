@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/.Xilinx/jk_using_case/jk_using_case_isim_beh.exe" -prj "C:/.Xilinx/jk_using_case/jk_using_case_beh.prj" "work.jk_using_case" "work.glbl" 

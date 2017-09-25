@@ -1,0 +1,10 @@
+Command line:
+   dffTest_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  61513
+
+Thu Mar 09 12:42:20 2017
+
+
+ Elaboration Time: 0.109201 sec

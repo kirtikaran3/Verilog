@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/.Xilinx/swtch_level_modelling_not/swtch_level_modelling_not.xst" -ofn "C:/.Xilinx/swtch_level_modelling_not/swtch_level_modelling_not.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/swtch_level_modelling_not/swtch_level_modelling_not.xst" -ofn "C:/.Xilinx/swtch_level_modelling_not/swtch_level_modelling_not.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/swtch_level_modelling_not/swtch_level_modelling_not.xst" -ofn "C:/.Xilinx/swtch_level_modelling_not/swtch_level_modelling_not.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/swtch_level_modelling_not/swtch_level_modelling_not.xst" -ofn "C:/.Xilinx/swtch_level_modelling_not/swtch_level_modelling_not.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/swtch_level_modelling_not/swtch_level_modelling_not.xst" -ofn "C:/.Xilinx/swtch_level_modelling_not/swtch_level_modelling_not.syr" 

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="817" delta="new" >"C:\.Xilinx\exercise_delay\exercise_delay.v" Line 38: System task <arg fmt="%s" index="1">monitor</arg> ignored for synthesis
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\.Xilinx\exercise_delay\exercise_delay.v" Line 26: Result of <arg fmt="%d" index="1">3</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\.Xilinx\exercise_delay\exercise_delay.v" Line 27: Result of <arg fmt="%d" index="1">3</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\.Xilinx\exercise_delay\exercise_delay.v" Line 30: Result of <arg fmt="%d" index="1">3</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="new" >"C:\.Xilinx\exercise_delay\exercise_delay.v" Line 21: Empty module &lt;<arg fmt="%s" index="1">exercise_delay</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\.Xilinx\exercise_delay\exercise_delay.v" Line 35: Assignment to <arg fmt="%s" index="1">a</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\.Xilinx\exercise_delay\exercise_delay.v</arg>&quot; line <arg fmt="%d" index="2">35</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">n1</arg>&gt; of block &lt;<arg fmt="%s" index="4">exercise_delay</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">exercisetestbench</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\.Xilinx\exercise_delay\exercise_delay.v</arg>&quot; line <arg fmt="%s" index="2">35</arg>: Output port &lt;<arg fmt="%s" index="3">a</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">n1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+</messages>
+

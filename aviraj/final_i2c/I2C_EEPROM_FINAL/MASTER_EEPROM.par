@@ -1,0 +1,242 @@
+Release 14.4 par P.49d (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+AVIRAJ::  Thu Apr 20 23:32:56 2017
+
+par -w -intstyle ise -ol high -t 1 MASTER_EEPROM_map.ncd MASTER_EEPROM.ncd
+MASTER_EEPROM.pcf 
+
+
+Constraints file: MASTER_EEPROM.pcf.
+Loading device for application Rf_Device from file '3s100e.nph' in environment C:\Xilinx\14.4\ISE_DS\ISE\.
+   "MASTER_EEPROM" is an NCD, version 3.2, device xc3s100e, package cp132, speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: -40.000 to 100.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.320 Volts)
+
+INFO:Par:282 - No user timing constraints were detected or you have set the option to ignore timing constraints ("par
+   -x"). Place and Route will run in "Performance Evaluation Mode" to automatically improve the performance of all
+   internal clocks in this design. Because there are not defined timing requirements, a timing score will not be
+   reported in the PAR report in this mode. The PAR timing summary will list the performance achieved for each clock.
+   Note: For the fastest runtime, set the effort level to "std".  For best performance, set the effort level to "high".
+
+Device speed data version:  "PRODUCTION 1.27 2012-12-04".
+
+
+Design Summary Report:
+
+ Number of External IOBs                          49 out of 83     59%
+
+   Number of External Input IOBs                  3
+
+      Number of External Input IBUFs              3
+        Number of LOCed External Input IBUFs      3 out of 3     100%
+
+
+   Number of External Output IOBs                46
+
+      Number of External Output IOBs             46
+        Number of LOCed External Output IOBs     31 out of 46     67%
+
+
+   Number of External Bidir IOBs                  0
+
+
+   Number of BUFGMUXs                        3 out of 24     12%
+   Number of Slices                        143 out of 960    14%
+      Number of SLICEMs                      0 out of 480     0%
+
+
+
+Overall effort level (-ol):   High 
+Placer effort level (-pl):    High 
+Placer cost table entry (-t): 1
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 1 secs 
+Finished initial Timing Analysis.  REAL time: 1 secs 
+
+
+Starting Placer
+Total REAL time at the beginning of Placer: 1 secs 
+Total CPU  time at the beginning of Placer: 1 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:1d084202) REAL time: 1 secs 
+
+Phase 2.7  Design Feasibility Check
+INFO:Place:834 - Only a subset of IOs are locked. Out of 46 IOs, 31 are locked and 15 are not locked. If you would like
+   to print the names of these IOs, please set the environment variable XIL_PAR_DESIGN_CHECK_VERBOSE to 1. 
+Phase 2.7  Design Feasibility Check (Checksum:1d084202) REAL time: 1 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:1d084202) REAL time: 1 secs 
+
+Phase 4.2  Initial Clock and IO Placement
+.......
+.............
+WARNING:Place:1019 - A clock IOB / clock component pair have been found that are not placed at an optimal clock IOB /
+   clock site pair. The clock component <reset_IBUF_BUFG> is placed at site <BUFGMUX_X1Y1>. The IO component <reset> is
+   placed at site <IPAD73>.  This will not allow the use of the fast path between the IO and the Clock buffer. This is
+   normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN <reset.PAD> allowing your design
+   to continue. This constraint disables all clock placer rules related to the specified COMP.PIN. The use of this
+   override is highly discouraged as it may lead to very poor timing results. It is recommended that this error
+   condition be corrected in the design.
+Phase 4.2  Initial Clock and IO Placement (Checksum:2b8c3a9b) REAL time: 3 secs 
+
+Phase 5.30  Global Clock Region Assignment
+Phase 5.30  Global Clock Region Assignment (Checksum:2b8c3a9b) REAL time: 3 secs 
+
+Phase 6.36  Local Placement Optimization
+Phase 6.36  Local Placement Optimization (Checksum:2b8c3a9b) REAL time: 3 secs 
+
+Phase 7.3  Local Placement Optimization
+.......
+Phase 7.3  Local Placement Optimization (Checksum:d6eb2d42) REAL time: 3 secs 
+
+Phase 8.5  Local Placement Optimization
+Phase 8.5  Local Placement Optimization (Checksum:d6eb2d42) REAL time: 3 secs 
+
+Phase 9.8  Global Placement
+............................................
+.................
+Phase 9.8  Global Placement (Checksum:364b0fd7) REAL time: 3 secs 
+
+Phase 10.5  Local Placement Optimization
+Phase 10.5  Local Placement Optimization (Checksum:364b0fd7) REAL time: 3 secs 
+
+Phase 11.18  Placement Optimization
+Phase 11.18  Placement Optimization (Checksum:ad8ab579) REAL time: 3 secs 
+
+Phase 12.5  Local Placement Optimization
+Phase 12.5  Local Placement Optimization (Checksum:ad8ab579) REAL time: 3 secs 
+
+Total REAL time to Placer completion: 3 secs 
+Total CPU  time to Placer completion: 3 secs 
+Writing design to file MASTER_EEPROM.ncd
+
+
+
+Starting Router
+
+
+Phase  1  : 900 unrouted;      REAL time: 4 secs 
+
+Phase  2  : 800 unrouted;      REAL time: 4 secs 
+
+Phase  3  : 95 unrouted;      REAL time: 4 secs 
+
+Phase  4  : 138 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
+
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
+
+Updating file: MASTER_EEPROM.ncd with current fully routed design.
+
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
+
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
+
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 6 secs 
+
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 6 secs 
+
+Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 6 secs 
+
+Phase 11  : 0 unrouted; (Par is working to improve performance)     REAL time: 6 secs 
+
+Phase 12  : 0 unrouted; (Par is working to improve performance)     REAL time: 6 secs 
+WARNING:Route:455 - CLK Net:en_OBUF may have excessive skew because 
+      0 CLK pins and 1 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:clk_div may have excessive skew because 
+      1 CLK pins and 1 NON_CLK pins failed to route using a CLK template.
+
+Total REAL time to Router completion: 6 secs 
+Total CPU time to Router completion: 6 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|           clk_BUFGP | BUFGMUX_X2Y11| No   |   19 |  0.017     |  0.061      |
++---------------------+--------------+------+------+------------+-------------+
+|                clk1 |  BUFGMUX_X1Y0| No   |   50 |  0.032     |  0.070      |
++---------------------+--------------+------+------+------------+-------------+
+|          reset_IBUF |  BUFGMUX_X1Y1| No   |    7 |  0.012     |  0.057      |
++---------------------+--------------+------+------+------------+-------------+
+|             clk_div |         Local|      |    2 |  0.000     |  0.942      |
++---------------------+--------------+------+------+------------+-------------+
+|             en_OBUF |         Local|      |   13 |  0.141     |  2.054      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+* The fanout is the number of component pins not the individual BEL loads,
+for example SLICE loads not FF loads.
+
+Timing Score: 0 (Setup: 0, Hold: 0)
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net clk | SETUP       |         N/A|     5.230ns|     N/A|           0
+  _BUFGP                                    | HOLD        |     1.352ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net clk | SETUP       |         N/A|     5.951ns|     N/A|           0
+  1                                         | HOLD        |     0.927ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net clk | SETUP       |         N/A|     3.320ns|     N/A|           0
+  _div                                      | HOLD        |     1.258ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net en_ | SETUP       |         N/A|     4.382ns|     N/A|           0
+  OBUF                                      | HOLD        |     1.451ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+
+
+All constraints were met.
+INFO:Timing:2761 - N/A entries in the Constraints List may indicate that the 
+   constraint is not analyzed due to the following: No paths covered by this 
+   constraint; Other constraints intersect with this constraint; or This 
+   constraint was disabled by a Path Tracing Control. Please run the Timespec 
+   Interaction Report (TSI) via command line (trce tsi) or Timing Analyzer GUI.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 6 secs 
+Total CPU time to PAR completion: 6 secs 
+
+Peak Memory Usage:  290 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 3
+Number of info messages: 2
+
+Writing design to file MASTER_EEPROM.ncd
+
+
+
+PAR done!

@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=F:\i2c_rtc\i2c_rtc_net\impact.xsl
+OUTFILE=F:\i2c_rtc\i2c_rtc_net\impact.xsl
+FAMILY=None
+PART=None
+WORKINGDIR=F:\i2c_rtc\i2c_rtc_net
+LICENSE=iMPACT
+USER_INFO=iMPACT

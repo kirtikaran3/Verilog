@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/.Xilinx/moore_machine/moore_machine.xst" -ofn "C:/.Xilinx/moore_machine/moore_machine.syr" 

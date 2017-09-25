@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/.Xilinx/moore_machine/moore_machine_isim_beh.exe" -prj "C:/.Xilinx/moore_machine/moore_machine_beh.prj" "work.moore_machine" "work.glbl" 

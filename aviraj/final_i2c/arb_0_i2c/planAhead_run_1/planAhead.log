@@ -1,0 +1,105 @@
+#-----------------------------------------------------------
+# PlanAhead v14.4 (64-bit)
+# Build 222254 by xbuild on Tue Dec 18 05:21:09 MST 2012
+# Start of session at: Mon Apr 17 00:26:50 2017
+# Process ID: 6752
+# Log file: E:/final_i2c/arb_0_i2c/planAhead_run_1/planAhead.log
+# Journal file: E:/final_i2c/arb_0_i2c/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -868 day(s)
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source E:/final_i2c/arb_0_i2c/pa.fromNetlist.tcl
+# create_project -name arb_0_i2c -dir "E:/final_i2c/arb_0_i2c/planAhead_run_3" -part xc3s100ecp132-4
+create_project: Time (s): elapsed = 00:00:07 . Memory (MB): peak = 417.914 ; gain = 57.234
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "E:/final_i2c/arb_0_i2c/lcd_fpga_1.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {E:/final_i2c/arb_0_i2c} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "lcd_fpga_1.ucf" [current_fileset -constrset]
+Adding file 'E:/final_i2c/arb_0_i2c/lcd_fpga_1.ucf' to fileset 'constrs_1'
+# add_files [list {lcd_fpga_1.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s100ecp132-4
+Release 14.4 - ngc2edif P.49d (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Reading design lcd_fpga_1.ngc ...
+WARNING:NetListWriters:298 - No output is written to lcd_fpga_1.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file lcd_fpga_1.edif ...
+ngc2edif: Total memory usage is 84404 kilobytes
+
+Parsing EDIF File [./planAhead_run_3/arb_0_i2c.data/cache/lcd_fpga_1_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_3/arb_0_i2c.data/cache/lcd_fpga_1_ngc_zx.edif]
+INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from C:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockBuffers.xml
+Loading package from C:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/Package.xml
+Loading io standards from C:/Xilinx/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [E:/final_i2c/arb_0_i2c/lcd_fpga_1.ucf]
+Finished Parsing UCF File [E:/final_i2c/arb_0_i2c/lcd_fpga_1.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 47ecc041
+link_design: Time (s): elapsed = 00:00:15 . Memory (MB): peak = 513.148 ; gain = 89.680
+startgroup
+set_property package_pin B2 [get_ports {lcd_d[7]}]
+endgroup
+startgroup
+set_property package_pin A3 [get_ports {lcd_d[6]}]
+endgroup
+startgroup
+set_property package_pin J3 [get_ports {lcd_d[5]}]
+endgroup
+startgroup
+set_property package_pin B5 [get_ports {lcd_d[4]}]
+endgroup
+startgroup
+set_property package_pin B6 [get_ports {lcd_d[3]}]
+endgroup
+startgroup
+set_property package_pin C6 [get_ports {lcd_d[2]}]
+endgroup
+set_property package_pin "" [get_ports [list  {lcd_d[3]}]]
+set_property package_pin "" [get_ports [list  {lcd_d[0]}]]
+startgroup
+set_property package_pin B6 [get_ports {lcd_d[2]}]
+endgroup
+startgroup
+set_property package_pin C6 [get_ports {lcd_d[3]}]
+endgroup
+startgroup
+set_property package_pin C5 [get_ports {lcd_d[1]}]
+endgroup
+startgroup
+set_property package_pin B7 [get_ports {lcd_d[0]}]
+endgroup
+startgroup
+set_property package_pin B8 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin N3 [get_ports rst]
+endgroup
+startgroup
+set_property package_pin A9 [get_ports lcd_e]
+endgroup
+startgroup
+set_property package_pin B9 [get_ports lcd_rw]
+endgroup
+save_constraints

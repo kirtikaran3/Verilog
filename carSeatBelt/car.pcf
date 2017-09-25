@@ -1,0 +1,12 @@
+//! **************************************************************************
+// Written by: Map P.28xd on Sat Mar 04 21:24:39 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "led" LOCATE = SITE "P7" LEVEL 1;
+COMP "clk" LOCATE = SITE "B8" LEVEL 1;
+COMP "key" LOCATE = SITE "K3" LEVEL 1;
+COMP "seatbelt" LOCATE = SITE "L3" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

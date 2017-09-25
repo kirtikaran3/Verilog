@@ -1,0 +1,10 @@
+Command line:
+   parity_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52451
+
+Tue Apr 12 05:40:39 2016
+
+
+ Elaboration Time: 0.046801 sec

@@ -1,0 +1,28 @@
+Command line:
+   fork_joinstatement_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49390
+
+Thu Apr 14 15:02:44 2016
+
+
+ Elaboration Time: 0.046801 sec
+
+ Current Memory Usage: 504.898 Meg
+
+ Total Signals          : 13
+ Total Nets             : 16
+ Total Signal Drivers   : 8
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 13
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 99
+
+ Total Simulation Time: 0.062401 sec
+
+ Current Memory Usage: 504.898 Meg
+
+Thu Apr 14 15:02:51 2016
+

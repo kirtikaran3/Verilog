@@ -1,0 +1,28 @@
+Command line:
+   Fadder_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49360
+
+Mon Feb 22 02:52:44 2016
+
+
+ Elaboration Time: 0.046801 sec
+
+ Current Memory Usage: 509.219 Meg
+
+ Total Signals          : 21
+ Total Nets             : 21
+ Total Signal Drivers   : 10
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 11
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 101
+
+ Total Simulation Time: 0.062401 sec
+
+ Current Memory Usage: 509.219 Meg
+
+Mon Feb 22 03:16:04 2016
+

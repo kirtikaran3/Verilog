@@ -1,0 +1,19 @@
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/.Xilinx/andtestbench/andtestbench_isim_beh.exe -prj C:/.Xilinx/andtestbench/andtestbench_beh.prj work.andtestbench work.glbl 
+ISim P.28xd (signature 0xa0883be4)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/.Xilinx/andtestbench/andtestbench.v" into library work
+WARNING:HDLCompiler:485 - "C:/.Xilinx/andtestbench/andtestbench.v" Line 32: Illegal format specifier a for monitor
+Analyzing Verilog file "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module andgate
+Compiling module andtestbench
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 3 Verilog Units
+Built simulation executable C:/.Xilinx/andtestbench/andtestbench_isim_beh.exe
+Fuse Memory Usage: 26444 KB
+Fuse CPU Usage: 420 ms

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Kirti Karan/Documents/verilog/delay1/delay1.xst" -ofn "C:/Users/Kirti Karan/Documents/verilog/delay1/delay1.syr" 

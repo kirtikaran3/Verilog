@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/final_i2c/single_master_EEPROM/write.xst" -ofn "E:/final_i2c/single_master_EEPROM/write.syr" 

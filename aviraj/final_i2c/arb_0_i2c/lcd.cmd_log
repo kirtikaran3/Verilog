@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/lcd.xst" -ofn "E:/final_i2c/arb_0_i2c/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SEV.ucf -p xc3s100e-cp132-4 lcd.ngc lcd.ngd  

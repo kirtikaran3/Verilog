@@ -1,0 +1,745 @@
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master_add.ucf -p xc3s100e-cp132-4 master_control22.ngc master_control22.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o master_control22_map.ncd master_control22.ngd master_control22.pcf 
+par -w -intstyle ise -ol high -t 1 master_control22_map.ncd master_control22.ncd master_control22.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml master_control22.twx master_control22.ncd -o master_control22.twr master_control22.pcf -ucf master_add.ucf 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+bitgen -intstyle ise -f master_control22.ut master_control22.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/master_control22.xst" -ofn "E:/final_i2c/arb_0_i2c/master_control22.syr" 

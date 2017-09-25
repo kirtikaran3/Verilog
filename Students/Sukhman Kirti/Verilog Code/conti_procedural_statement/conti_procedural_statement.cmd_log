@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/.Xilinx/conti_procedural_statement/conti_procedural_statement.xst" -ofn "C:/.Xilinx/conti_procedural_statement/conti_procedural_statement.syr" 

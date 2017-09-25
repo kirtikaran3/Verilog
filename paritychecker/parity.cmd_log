@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/kirti/Documents/verilog/paritychecker/parity.xst" -ofn "C:/Users/kirti/Documents/verilog/paritychecker/parity.syr" 

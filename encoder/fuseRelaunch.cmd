@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/kirti/Documents/verilog/encoder/encoder_isim_beh.exe" -prj "C:/Users/kirti/Documents/verilog/encoder/encoder_beh.prj" "work.encoder" "work.glbl" 

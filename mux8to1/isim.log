@@ -1,0 +1,20 @@
+ISim log file
+Running: C:\Users\kirti\Documents\verilog\mux8to1\mux8to1_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/kirti/Documents/verilog/mux8to1/mux8to1_isim_beh.wdb 
+ISim P.28xd (signature 0xa0883be4)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /mux8to1/select 000 -radix bin
+# isim force add /mux8to1/select 000 -radix bin
+# isim force add /mux8to1/select 000 -radix bin
+# isim force add /mux8to1/in 00000001 -radix bin
+# isim force add /mux8to1/in 00000001 -radix bin
+# isim force add /mux8to1/in 00000001 -radix bin
+# run 1.00us
+# isim force add /mux8to1/in 00000000 -radix bin
+# isim force add /mux8to1/in 00000000 -radix bin
+# run 1.00us

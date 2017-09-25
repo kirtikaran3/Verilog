@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/.Xilinx/conti_procedural_statement/conti_procedural_statement_isim_beh.exe" -prj "C:/.Xilinx/conti_procedural_statement/conti_procedural_statement_beh.prj" "work.conti_procedural_statement" "work.glbl" 

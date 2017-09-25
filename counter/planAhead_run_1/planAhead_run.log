@@ -1,0 +1,83 @@
+
+****** PlanAhead v14.2 (64-bit)
+  **** Build 194362 by xbuild on Fri Jul 20 18:52:11 MDT 2012
+    ** Copyright 1986-1999, 2001-2012 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Users/Kirti Karan/Documents/verilog/counter/pa.fromNetlist.tcl}
+# create_project -name counter -dir "C:/Users/Kirti Karan/Documents/verilog/counter/planAhead_run_1" -part xc3s100ecp132-4
+Parsing template File [C:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/verilog.xml].
+Finished parsing template File [C:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/verilog.xml].
+Parsing template File [C:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/vhdl.xml].
+Finished parsing template File [C:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/vhdl.xml].
+Parsing template File [C:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/ucf.xml].
+Finished parsing template File [C:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/ucf.xml].
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Users/Kirti Karan/Documents/verilog/counter/counters.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/Kirti Karan/Documents/verilog/counter} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "counters.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/Kirti Karan/Documents/verilog/counter/counters.ucf' to fileset 'constrs_1'
+# add_files [list {counters.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s100ecp132-4
+Release 14.2 - ngc2edif P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Reading design counters.ngc ...
+WARNING:NetListWriters:298 - No output is written to counters.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file counters.edif ...
+ngc2edif: Total memory usage is 82716 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/counter.data/cache/counters_ngc_9ad95458.edif]
+Finished Parsing EDIF File [./planAhead_run_1/counter.data/cache/counters_ngc_9ad95458.edif]
+INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.2/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.2/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/14.2/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from C:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockBuffers.xml
+Loading package from C:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/Package.xml
+Loading io standards from C:/Xilinx/14.2/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.2/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [C:/Users/Kirti Karan/Documents/verilog/counter/counters.ucf]
+Finished Parsing UCF File [C:/Users/Kirti Karan/Documents/verilog/counter/counters.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  BUFGP => BUFGP (HD_IBUFG, HD_BUFG): 1 instances
+
+Phase 0 | Netlist Checksum: 33c40b2d
+link_design: Time (s): elapsed = 00:00:14 . Memory (MB): peak = 494.582 ; gain = 87.645
+startgroup
+set_property package_pin A7 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin M5 [get_ports {count[0]}]
+endgroup
+startgroup
+set_property package_pin M11 [get_ports {count[1]}]
+endgroup
+startgroup
+set_property package_pin P7 [get_ports {count[2]}]
+endgroup
+startgroup
+set_property package_pin P6 [get_ports {count[3]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {count[3]}]]
+set_property is_loc_fixed true [get_ports [list  {count[3]}]]
+save_design
+exit
+INFO: [Common 17-206] Exiting PlanAhead...
+INFO: [Common 17-83] Releasing license: PlanAhead

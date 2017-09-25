@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/final_i2c/RTC/EEPROM.xst" -ofn "E:/final_i2c/RTC/EEPROM.syr" 

@@ -1,0 +1,19 @@
+ISim log file
+Running: C:\Users\Kirti Karan\Documents\verilog\dd\dd_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Kirti Karan/Documents/verilog/dd/dd_isim_beh.wdb 
+ISim P.28xd (signature 0xa0883be4)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                   0c=          1,a=          1,b=          1
+                   1c=          0,a=          0,b=          0
+                   2c=          1,a=          1,b=          1
+                   3c=          5,a=          5,b=          5
+                   4c=          1,a=          1,b=          1
+                   5c=          0,a=          0,b=          0
+                   8c=          1,a=          1,b=          1
+                  14c=          0,a=          0,b=          0
+Stopped at time : 50 ns : File "C:/Users/Kirti Karan/Documents/verilog/dd/dd.v" Line 38

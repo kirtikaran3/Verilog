@@ -1,0 +1,28 @@
+Command line:
+   delay_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53471
+
+Sat Nov 19 07:50:23 2016
+
+
+ Elaboration Time: 0.046801 sec
+
+ Current Memory Usage: 509.014 Meg
+
+ Total Signals          : 15
+ Total Nets             : 15
+ Total Signal Drivers   : 7
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 10
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 97
+
+ Total Simulation Time: 0.390003 sec
+
+ Current Memory Usage: 509.014 Meg
+
+Sat Nov 19 07:56:28 2016
+

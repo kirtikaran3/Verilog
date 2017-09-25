@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+master2 instance_name (
+    .clk(clk), 
+    .reset(reset), 
+    .RW(RW), 
+    .addr_in2(addr_in2), 
+    .data_in2(data_in2), 
+    .i2c_sda2(i2c_sda2), 
+    .i2c_scl2(i2c_scl2)
+    );
+
+

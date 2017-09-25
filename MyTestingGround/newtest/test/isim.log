@@ -1,0 +1,47 @@
+ISim log file
+Running: C:\Users\kirti\Documents\verilog\newtest\test\test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/kirti/Documents/verilog/newtest/test/test_isim_beh.wdb 
+ISim P.28xd (signature 0xa0883be4)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /test/in 10000000 -radix bin
+# isim force add /test/in 10000000 -radix bin
+# isim force add /test/sel 111 -radix bin
+# isim force add /test/sel 111 -radix bin
+# run 1.00us
+# isim force add /test/sel 000 -radix bin
+# isim force add /test/sel 000 -radix bin
+# run 1.00us
+# run 1.00us
+# isim force add /test/in 00000001 -radix bin
+# isim force add /test/in 00000001 -radix bin
+# run 1.00us
+# isim force add /test/in 0000001 -radix bin
+/test/in: Array length and the input lengths are different
+
+# isim force add /test/in 0000001 -radix bin
+/test/in: Array length and the input lengths are different
+
+# run 1.00us
+# isim force add /test/in 00000001 -radix bin
+# isim force add /test/in 00000001 -radix bin
+# run 1.00us
+# isim force add /test/sel 111 -radix bin
+# isim force add /test/sel 111 -radix bin
+# run 1.00us
+# isim force add /test/sel 000 -radix bin
+# isim force add /test/sel 000 -radix bin
+# run 1.00us
+# isim force add /test/in 00000010 -radix bin
+# isim force add /test/in 00000010 -radix bin
+# isim force add /test/sel 010 -radix bin
+# isim force add /test/sel 010 -radix bin
+# run 1.00us
+# run 1.00us
+# isim force add /test/sel 001 -radix bin
+# isim force add /test/sel 001 -radix bin
+# run 1.00us

@@ -1,0 +1,28 @@
+Command line:
+   allgates_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49175
+
+Tue Feb 14 10:55:48 2017
+
+
+ Elaboration Time: 0.1248 sec
+
+ Current Memory Usage: 509.018 Meg
+
+ Total Signals          : 15
+ Total Nets             : 19
+ Total Signal Drivers   : 7
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 8
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 99
+
+ Total Simulation Time: 0.280801 sec
+
+ Current Memory Usage: 509.018 Meg
+
+Tue Feb 14 11:32:11 2017
+

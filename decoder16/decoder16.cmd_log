@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "C:/Users/kirti/Documents/verilog/decoder16/decoder16.xst" -ofn "C:/Users/kirti/Documents/verilog/decoder16/decoder16.syr" 
+xst -intstyle ise -ifn "C:/Users/kirti/Documents/verilog/decoder16/decoder16.xst" -ofn "C:/Users/kirti/Documents/verilog/decoder16/decoder16.syr" 
+xst -intstyle ise -ifn "C:/Users/kirti/Documents/verilog/decoder16/decoder16.xst" -ofn "C:/Users/kirti/Documents/verilog/decoder16/decoder16.syr" 
+xst -intstyle ise -ifn "C:/Users/kirti/Documents/verilog/decoder16/decoder16.xst" -ofn "C:/Users/kirti/Documents/verilog/decoder16/decoder16.syr" 

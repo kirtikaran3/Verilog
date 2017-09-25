@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Kirti Karan\Documents\verilog\countFpga\binary.ncd
+OUTFILE=C:\Users\Kirti Karan\Documents\verilog\countFpga\binary.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4cp132
+WORKINGDIR=C:\Users\Kirti Karan\Documents\verilog\countFpga
+LICENSE=WebPack
+USER_INFO=__0_0_0

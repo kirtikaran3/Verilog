@@ -1,0 +1,38 @@
+xst -intstyle ise -ifn "C:/Users/Kirti Karan/Documents/verilog/carSeatBelt/car.xst" -ofn "C:/Users/Kirti Karan/Documents/verilog/carSeatBelt/car.syr" 
+xst -intstyle ise -ifn "C:/Users/Kirti Karan/Documents/verilog/carSeatBelt/car.xst" -ofn "C:/Users/Kirti Karan/Documents/verilog/carSeatBelt/car.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc car.ucf -p xc3s100e-cp132-4 "car.ngc" car.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o car_map.ncd car.ngd car.pcf 
+par -w -intstyle ise -ol high -t 1 car_map.ncd car.ncd car.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml car.twx car.ncd -o car.twr car.pcf -ucf car.ucf 
+bitgen -intstyle ise -f car.ut car.ncd 
+xst -intstyle ise -ifn "C:/Users/Kirti Karan/Documents/verilog/carSeatBelt/car.xst" -ofn "C:/Users/Kirti Karan/Documents/verilog/carSeatBelt/car.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc car.ucf -p xc3s100e-cp132-4 "car.ngc" car.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o car_map.ncd car.ngd car.pcf 
+par -w -intstyle ise -ol high -t 1 car_map.ncd car.ncd car.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml car.twx car.ncd -o car.twr car.pcf -ucf car.ucf 
+bitgen -intstyle ise -f car.ut car.ncd 
+xst -intstyle ise -ifn "C:/Users/Kirti Karan/Documents/verilog/carSeatBelt/car.xst" -ofn "C:/Users/Kirti Karan/Documents/verilog/carSeatBelt/car.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc car.ucf -p xc3s100e-cp132-4 "car.ngc" car.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o car_map.ncd car.ngd car.pcf 
+par -w -intstyle ise -ol high -t 1 car_map.ncd car.ncd car.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml car.twx car.ncd -o car.twr car.pcf -ucf car.ucf 
+bitgen -intstyle ise -f car.ut car.ncd 
+xst -intstyle ise -ifn "C:/Users/Kirti/Documents/verilog/carSeatBelt/car.xst" -ofn "C:/Users/Kirti/Documents/verilog/carSeatBelt/car.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc car.ucf -p xc3s100e-cp132-4 car.ngc car.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o car_map.ncd car.ngd car.pcf 
+par -w -intstyle ise -ol high -t 1 car_map.ncd car.ncd car.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml car.twx car.ncd -o car.twr car.pcf -ucf car.ucf 
+bitgen -intstyle ise -f car.ut car.ncd 
+xst -intstyle ise -ifn "C:/Users/Kirti/Documents/verilog/carSeatBelt/car.xst" -ofn "C:/Users/Kirti/Documents/verilog/carSeatBelt/car.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc car.ucf -p xc3s100e-cp132-4 car.ngc car.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o car_map.ncd car.ngd car.pcf 
+par -w -intstyle ise -ol high -t 1 car_map.ncd car.ncd car.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml car.twx car.ncd -o car.twr car.pcf -ucf car.ucf 
+bitgen -intstyle ise -f car.ut car.ncd 
+xst -intstyle ise -ifn "C:/Users/Kirti/Documents/verilog/carSeatBelt/car.xst" -ofn "C:/Users/Kirti/Documents/verilog/carSeatBelt/car.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc car.ucf -p xc3s100e-cp132-4 car.ngc car.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o car_map.ncd car.ngd car.pcf 
+par -w -intstyle ise -ol high -t 1 car_map.ncd car.ncd car.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml car.twx car.ncd -o car.twr car.pcf -ucf car.ucf 
+bitgen -intstyle ise -f car.ut car.ncd 
+xst -intstyle ise -ifn "C:/Users/Kirti/Documents/verilog/carSeatBelt/car.xst" -ofn "C:/Users/Kirti/Documents/verilog/carSeatBelt/car.syr" 

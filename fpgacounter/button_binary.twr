@@ -1,0 +1,77 @@
+--------------------------------------------------------------------------------
+Release 14.2 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2I
+-n 3 -fastpaths -xml button_binary.twx button_binary.ncd -o button_binary.twr
+button_binary.pcf
+
+Design file:              button_binary.ncd
+Physical constraint file: button_binary.pcf
+Device,package,speed:     xa7a100t,csg324,I,-2I (ADVANCED 1.02 2012-07-09)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock button12
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+reset       |   -0.454(R)|      FAST  |    1.830(R)|      SLOW  |button12_IBUF_BUFG|   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock button12 to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+led         |         8.644(R)|      SLOW  |         3.859(R)|      FAST  |button12_IBUF_BUFG|   0.000|
+led2        |         8.575(R)|      SLOW  |         3.823(R)|      FAST  |button12_IBUF_BUFG|   0.000|
+led3        |         8.520(R)|      SLOW  |         3.797(R)|      FAST  |button12_IBUF_BUFG|   0.000|
+led4        |         8.698(R)|      SLOW  |         3.895(R)|      FAST  |button12_IBUF_BUFG|   0.000|
+led5        |         8.523(R)|      SLOW  |         3.799(R)|      FAST  |button12_IBUF_BUFG|   0.000|
+led6        |         8.580(R)|      SLOW  |         3.836(R)|      FAST  |button12_IBUF_BUFG|   0.000|
+led7        |         8.529(R)|      SLOW  |         3.808(R)|      FAST  |button12_IBUF_BUFG|   0.000|
+led8        |         8.631(R)|      SLOW  |         3.855(R)|      FAST  |button12_IBUF_BUFG|   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock button12
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+button12       |    1.684|   -0.413|         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Tue Nov 15 13:03:18 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 617 MB
+
+
+

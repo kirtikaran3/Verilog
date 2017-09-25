@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/.Xilinx/couting_no_1/counting_no_1_isim_beh.exe" -prj "C:/.Xilinx/couting_no_1/counting_no_1_beh.prj" "work.counting_no_1" "work.glbl" 

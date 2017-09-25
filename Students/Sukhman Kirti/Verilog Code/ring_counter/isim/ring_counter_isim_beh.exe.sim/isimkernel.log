@@ -1,0 +1,28 @@
+Command line:
+   ring_counter_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49243
+
+Mon Apr 11 19:45:03 2016
+
+
+ Elaboration Time: 0.0312 sec
+
+ Current Memory Usage: 504.898 Meg
+
+ Total Signals          : 15
+ Total Nets             : 19
+ Total Signal Drivers   : 6
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 8
+ Total Traceable Variables  : 19
+ Total Scalar Nets and Variables : 103
+
+ Total Simulation Time: 0.078 sec
+
+ Current Memory Usage: 504.898 Meg
+
+Mon Apr 11 19:45:55 2016
+

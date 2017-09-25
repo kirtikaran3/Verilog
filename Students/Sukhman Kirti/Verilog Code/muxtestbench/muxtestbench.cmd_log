@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "C:/.Xilinx/muxtestbench/muxtestbench.xst" -ofn "C:/.Xilinx/muxtestbench/muxtestbench.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/muxtestbench/muxtestbench.xst" -ofn "C:/.Xilinx/muxtestbench/muxtestbench.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/muxtestbench/muxtestbench.xst" -ofn "C:/.Xilinx/muxtestbench/muxtestbench.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/muxtestbench/muxtestbench.xst" -ofn "C:/.Xilinx/muxtestbench/muxtestbench.syr" 

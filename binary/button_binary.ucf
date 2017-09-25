@@ -1,0 +1,16 @@
+# Pin assignment for LEDs
+NET "led8" LOC = G1; 
+NET "led7" LOC = P4; 
+NET "led6" LOC = N4; 
+NET "led5" LOC = N5; 
+NET "led4" LOC = P6; 
+NET "led3" LOC = P7; 
+NET "led2" LOC = M11; 
+NET "led" LOC = M5; 
+ 
+# Pin assignment for pushbutton switches
+NET "reset" LOC = A7; 
+NET "button" LOC = M4; 
+ 
+# Pin assignment for clock
+NET "clock" LOC = B8; 

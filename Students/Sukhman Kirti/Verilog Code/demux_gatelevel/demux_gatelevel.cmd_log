@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/.Xilinx/demux_gatelevel/demux_gatelevel.xst" -ofn "C:/.Xilinx/demux_gatelevel/demux_gatelevel.syr" 

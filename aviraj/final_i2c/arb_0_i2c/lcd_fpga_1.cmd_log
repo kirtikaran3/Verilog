@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/lcd_fpga_1.xst" -ofn "E:/final_i2c/arb_0_i2c/lcd_fpga_1.syr" 
+xst -intstyle ise -ifn "E:/final_i2c/arb_0_i2c/lcd_fpga_1.xst" -ofn "E:/final_i2c/arb_0_i2c/lcd_fpga_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lcd_fpga_1.ucf -p xc3s100e-cp132-4 lcd_fpga_1.ngc lcd_fpga_1.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o lcd_fpga_1_map.ncd lcd_fpga_1.ngd lcd_fpga_1.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_fpga_1_map.ncd lcd_fpga_1.ncd lcd_fpga_1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_fpga_1.twx lcd_fpga_1.ncd -o lcd_fpga_1.twr lcd_fpga_1.pcf -ucf lcd_fpga_1.ucf 
+bitgen -intstyle ise -f lcd_fpga_1.ut lcd_fpga_1.ncd 

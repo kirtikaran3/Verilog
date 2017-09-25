@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "C:/.Xilinx/USART/USART_TXtestbench.xst" -ofn "C:/.Xilinx/USART/USART_TXtestbench.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/USART/USART_TXtestbench.xst" -ofn "C:/.Xilinx/USART/USART_TXtestbench.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/USART/USART_TXtestbench.xst" -ofn "C:/.Xilinx/USART/USART_TXtestbench.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/USART/USART_TXtestbench.xst" -ofn "C:/.Xilinx/USART/USART_TXtestbench.syr" 

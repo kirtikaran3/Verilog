@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/.Xilinx/ROM/ROM_isim_beh.exe" -prj "C:/.Xilinx/ROM/ROM_beh.prj" "work.ROM" "work.glbl" 

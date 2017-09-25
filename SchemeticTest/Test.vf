@@ -1,0 +1,35 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.2
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Test.vf
+// /___/   /\     Timestamp : 03/08/2017 22:15:51
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog C:/Users/Kirti/Documents/verilog/SchemeticTest/Test.vf -w C:/Users/Kirti/Documents/verilog/SchemeticTest/Test.sch
+//Design Name: Test
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Test(Clk, 
+            D, 
+            led);
+
+    input Clk;
+    input D;
+   output led;
+   
+   
+   FD_1 #( .INIT(1'b0) ) XLXI_1 (.C(Clk), 
+                .D(D), 
+                .Q(led));
+endmodule

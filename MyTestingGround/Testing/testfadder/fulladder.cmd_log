@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/kirti/Documents/verilog/testfadder/fulladder.xst" -ofn "C:/Users/kirti/Documents/verilog/testfadder/fulladder.syr" 
+xst -intstyle ise -ifn "C:/Users/kirti/Documents/verilog/testfadder/fulladder.xst" -ofn "C:/Users/kirti/Documents/verilog/testfadder/fulladder.syr" 
+xst -intstyle ise -ifn "C:/Users/kirti/Documents/verilog/testfadder/fulladder.xst" -ofn "C:/Users/kirti/Documents/verilog/testfadder/fulladder.syr" 
+xst -intstyle ise -ifn "C:/Users/kirti/Documents/verilog/testfadder/fulladder.xst" -ofn "C:/Users/kirti/Documents/verilog/testfadder/fulladder.syr" 
+xst -intstyle ise -ifn "C:/Users/kirti/Documents/verilog/testfadder/fulladder.xst" -ofn "C:/Users/kirti/Documents/verilog/testfadder/fulladder.syr" 

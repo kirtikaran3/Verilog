@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/.Xilinx/piso/piso.xst" -ofn "C:/.Xilinx/piso/piso.syr" 

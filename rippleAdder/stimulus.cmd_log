@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/kirti/Documents/verilog/test/stimulus.xst" -ofn "C:/Users/kirti/Documents/verilog/test/stimulus.syr" 
+xst -intstyle ise -ifn "C:/Users/kirti/Documents/verilog/test/stimulus.xst" -ofn "C:/Users/kirti/Documents/verilog/test/stimulus.syr" 
+xst -intstyle ise -ifn "C:/Users/kirti/Documents/verilog/test/stimulus.xst" -ofn "C:/Users/kirti/Documents/verilog/test/stimulus.syr" 
+xst -intstyle ise -ifn "C:/Users/kirti/Documents/verilog/rippleAdder/stimulus.xst" -ofn "C:/Users/kirti/Documents/verilog/rippleAdder/stimulus.syr" 
+xst -intstyle ise -ifn "C:/Users/kirti/Documents/verilog/rippleAdder/stimulus.xst" -ofn "C:/Users/kirti/Documents/verilog/rippleAdder/stimulus.syr" 
+xst -intstyle ise -ifn "C:/Users/kirti/Documents/verilog/rippleAdder/stimulus.xst" -ofn "C:/Users/kirti/Documents/verilog/rippleAdder/stimulus.syr" 

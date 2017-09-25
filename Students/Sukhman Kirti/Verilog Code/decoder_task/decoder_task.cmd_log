@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "C:/.Xilinx/decoder_task/decoder_task.xst" -ofn "C:/.Xilinx/decoder_task/decoder_task.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/decoder_task/decoder_task.xst" -ofn "C:/.Xilinx/decoder_task/decoder_task.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/decoder_task/decoder_task.xst" -ofn "C:/.Xilinx/decoder_task/decoder_task.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/decoder_task/decoder_task.xst" -ofn "C:/.Xilinx/decoder_task/decoder_task.syr" 

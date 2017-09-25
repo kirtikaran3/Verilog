@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/.Xilinx/ring_counter_testbench/ring_countertestbench_isim_beh.exe" -prj "C:/.Xilinx/ring_counter_testbench/ring_countertestbench_beh.prj" "work.ring_countertestbench" "work.glbl" 

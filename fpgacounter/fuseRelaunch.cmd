@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/Kirti/Documents/verilog/fpgacounter/button_binary_isim_beh.exe" -prj "C:/Users/Kirti/Documents/verilog/fpgacounter/button_binary_beh.prj" "work.button_binary" "work.glbl" 

@@ -1,0 +1,21 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "E:/final_i2c/arb_0_i2c/master_test1_isim_beh.exe" -prj "E:/final_i2c/arb_0_i2c/master_test1_beh.prj" "work.master_test1" "work.glbl" 
+ISim P.49d (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/final_i2c/arb_0_i2c/master_in_dual_fsm.v" into library work
+Analyzing Verilog file "E:/final_i2c/arb_0_i2c/master_test1.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.4/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "E:/final_i2c/arb_0_i2c/master_test1.v" Line 45: Port rs is not connected to this instance
+Completed static elaboration
+Compiling module master_control22
+Compiling module master_test1
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\master_test1_isim_beh.exe.sim\libPortability.dll".
+Compiled 3 Verilog Units
+Built simulation executable E:/final_i2c/arb_0_i2c/master_test1_isim_beh.exe
+Fuse Memory Usage: 28180 KB
+Fuse CPU Usage: 1109 ms

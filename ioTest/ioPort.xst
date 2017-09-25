@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Kirti Karan/Documents/verilog/ioTest/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Kirti Karan/Documents/verilog/ioTest/xst"
+elaborate
+-ifn ioPort.prj
+-ifmt mixed

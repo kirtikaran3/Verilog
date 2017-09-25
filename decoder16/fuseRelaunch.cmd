@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/kirti/Documents/verilog/decoder16/decoder16_isim_beh.exe" -prj "C:/Users/kirti/Documents/verilog/decoder16/decoder16_beh.prj" "work.decoder16" "work.glbl" 

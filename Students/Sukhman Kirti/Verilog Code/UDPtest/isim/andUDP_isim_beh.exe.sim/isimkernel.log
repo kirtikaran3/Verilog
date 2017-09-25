@@ -1,0 +1,28 @@
+Command line:
+   andUDP_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50369
+
+Sat Jan 28 07:30:17 2017
+
+
+ Elaboration Time: 0.0468 sec
+
+ Current Memory Usage: 509.018 Meg
+
+ Total Signals          : 19
+ Total Nets             : 16
+ Total Signal Drivers   : 6
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 7
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 96
+
+ Total Simulation Time: 0.0624 sec
+
+ Current Memory Usage: 509.018 Meg
+
+Sat Jan 28 07:30:39 2017
+

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\final_i2c\final_i2c\master_with_seven_seg.ncd
+OUTFILE=E:\final_i2c\final_i2c\master_with_seven_seg.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=E:\final_i2c\final_i2c
+LICENSE=WebPack
+USER_INFO=177399848_0_0_938

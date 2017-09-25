@@ -1,0 +1,696 @@
+Release 14.2 - xst P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Reading design: i2c.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "i2c.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "i2c"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-cp132
+
+---- Source Options
+Top Module Name                    : i2c
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "i2c_rtc.v" in library work
+Module <i2c> compiled
+No errors in compilation
+Analysis of file <"i2c.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <i2c> in library <work> with parameters.
+	RxPointeraddr = "00000000000000000000000000000010"
+	Rxdata = "00000000000000000000000000000100"
+	Rxidle = "00000000000000000000000000000000"
+	Rxstart = "00000000000000000000000000000001"
+	Rxstart1 = "00000000000000000000000000000011"
+	Rxstop = "00000000000000000000000000000101"
+	clock_div = "00000000000000000000000111110100"
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <i2c>.
+	RxPointeraddr = 32'sb00000000000000000000000000000010
+	Rxdata = 32'sb00000000000000000000000000000100
+	Rxidle = 32'sb00000000000000000000000000000000
+	Rxstart = 32'sb00000000000000000000000000000001
+	Rxstart1 = 32'sb00000000000000000000000000000011
+	Rxstop = 32'sb00000000000000000000000000000101
+	clock_div = 32'sb00000000000000000000000111110100
+Module <i2c> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+INFO:Xst:2679 - Register <chk> in unit <i2c> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <outreg<0>> in unit <i2c> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <ack<1>> in unit <i2c> has a constant value of 0 during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <i2c>.
+    Related source file is "i2c_rtc.v".
+WARNING:Xst:1306 - Output <acl_count1> is never assigned.
+WARNING:Xst:646 - Signal <ack_count1> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <ack_count<1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <LED> is used but never assigned. This sourceless signal will be automatically connected to value 0000000000000000000000000000.
+INFO:Xst:1799 - State 1001 is never reached in FSM <slaveaddrs>.
+INFO:Xst:1799 - State 100 is never reached in FSM <state>.
+INFO:Xst:1799 - State 101 is never reached in FSM <state>.
+    Found finite state machine <FSM_0> for signal <I2C_counter>.
+    -----------------------------------------------------------------------
+    | States             | 9                                              |
+    | Transitions        | 9                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 9                                              |
+    | Clock              | I2Cclk                    (rising_edge)        |
+    | Clock enable       | I2C_counter$cmp_eq0000    (positive)           |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 0000                                           |
+    | Power Up State     | 0000                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_1> for signal <Rxcount>.
+    -----------------------------------------------------------------------
+    | States             | 16                                             |
+    | Transitions        | 16                                             |
+    | Inputs             | 0                                              |
+    | Outputs            | 16                                             |
+    | Clock              | I2Cclk                    (rising_edge)        |
+    | Clock enable       | Rxcount$cmp_eq0000        (positive)           |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 0000                                           |
+    | Power Up State     | 0000                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_2> for signal <bitaddrs7>.
+    -----------------------------------------------------------------------
+    | States             | 9                                              |
+    | Transitions        | 9                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 10                                             |
+    | Clock              | I2Cclk                    (rising_edge)        |
+    | Clock enable       | bitaddrs7$cmp_eq0000      (positive)           |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 0001                                           |
+    | Power Up State     | 0001                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_3> for signal <slaveaddrs>.
+    -----------------------------------------------------------------------
+    | States             | 9                                              |
+    | Transitions        | 9                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 9                                              |
+    | Clock              | I2Cclk                    (rising_edge)        |
+    | Clock enable       | slaveaddrs$cmp_eq0000     (positive)           |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 0000                                           |
+    | Power Up State     | 0000                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_4> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 8                                              |
+    | Inputs             | 5                                              |
+    | Outputs            | 4                                              |
+    | Clock              | I2Cclk                    (rising_edge)        |
+    | Clock enable       | reset                     (negative)           |
+    | Power Up State     | 000                                            |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+WARNING:Xst:737 - Found 7-bit latch for signal <cathode>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 16x7-bit ROM for signal <cathode$mux0001>.
+    Found 16x7-bit ROM for signal <cathode$mux0002>.
+    Found 16x7-bit ROM for signal <cathode$mux0003>.
+    Found 16x7-bit ROM for signal <cathode$mux0004>.
+    Found 15-bit register for signal <outreg<15:1>>.
+    Found 2-bit up counter for signal <ab>.
+    Found 2-bit comparator less for signal <ab$cmp_lt0000> created at line 64.
+    Found 1-bit register for signal <ack<2>>.
+    Found 1-bit register for signal <ack<0>>.
+    Found 7-bit 4-to-1 multiplexer for signal <cathode$mux0000> created at line 74.
+    Found 1-bit register for signal <clk_div>.
+    Found 9-bit down counter for signal <clkclk>.
+    Found 8-bit up counter for signal <count1>.
+    Found 8-bit comparator less for signal <count1$cmp_lt0000> created at line 55.
+    Found 1-bit register for signal <I2Cclk>.
+    Found 9-bit subtractor for signal <old_clkclk_5$sub0000> created at line 191.
+    Found 1-bit register for signal <sda_int>.
+    Summary:
+	inferred   5 Finite State Machine(s).
+	inferred   4 ROM(s).
+	inferred   3 Counter(s).
+	inferred  20 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   2 Comparator(s).
+	inferred   7 Multiplexer(s).
+Unit <i2c> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 4
+ 16x7-bit ROM                                          : 4
+# Adders/Subtractors                                   : 1
+ 9-bit subtractor                                      : 1
+# Counters                                             : 2
+ 2-bit up counter                                      : 1
+ 9-bit down counter                                    : 1
+# Registers                                            : 19
+ 1-bit register                                        : 19
+# Latches                                              : 1
+ 7-bit latch                                           : 1
+# Comparators                                          : 1
+ 2-bit comparator less                                 : 1
+# Multiplexers                                         : 1
+ 7-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_4> for best encoding.
+Optimizing FSM <state/FSM> on signal <state[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 000   | 00
+ 001   | 01
+ 010   | 11
+ 011   | 10
+ 100   | unreached
+ 101   | unreached
+-------------------
+Analyzing FSM <FSM_3> for best encoding.
+Optimizing FSM <slaveaddrs/FSM> on signal <slaveaddrs[1:9]> with one-hot encoding.
+--------------------
+ State | Encoding
+--------------------
+ 0000  | 000000001
+ 0001  | 000000010
+ 0010  | 000000100
+ 0011  | 000001000
+ 0100  | 000010000
+ 0101  | 000100000
+ 0110  | 001000000
+ 0111  | 010000000
+ 1000  | 100000000
+ 1001  | unreached
+--------------------
+Analyzing FSM <FSM_2> for best encoding.
+Optimizing FSM <bitaddrs7/FSM> on signal <bitaddrs7[1:9]> with one-hot encoding.
+--------------------
+ State | Encoding
+--------------------
+ 0001  | 000000001
+ 0010  | 000000010
+ 0011  | 000000100
+ 0100  | 000001000
+ 0101  | 000010000
+ 0110  | 000100000
+ 0111  | 001000000
+ 1000  | 010000000
+ 1001  | 100000000
+--------------------
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <Rxcount/FSM> on signal <Rxcount[1:16]> with one-hot encoding.
+---------------------------
+ State | Encoding
+---------------------------
+ 0000  | 0000000000000001
+ 0001  | 0000000000000010
+ 0010  | 0000000000000100
+ 0011  | 0000000000001000
+ 0100  | 0000000000010000
+ 0101  | 0000000000100000
+ 0110  | 0000000001000000
+ 0111  | 0000000010000000
+ 1000  | 0000000100000000
+ 1001  | 0000001000000000
+ 1010  | 0000010000000000
+ 1011  | 0000100000000000
+ 1100  | 0001000000000000
+ 1101  | 0010000000000000
+ 1110  | 0100000000000000
+ 1111  | 1000000000000000
+---------------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <I2C_counter/FSM> on signal <I2C_counter[1:9]> with one-hot encoding.
+--------------------
+ State | Encoding
+--------------------
+ 0000  | 000000001
+ 0001  | 000000010
+ 0010  | 000000100
+ 0011  | 000001000
+ 0100  | 000010000
+ 0101  | 000100000
+ 0110  | 001000000
+ 0111  | 010000000
+ 1000  | 100000000
+--------------------
+WARNING:Xst:1710 - FF/Latch <ack_2> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outreg_15> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outreg_12> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outreg_14> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outreg_13> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outreg_11> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outreg_10> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outreg_9> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outreg_8> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outreg_5> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outreg_7> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outreg_6> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outreg_4> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outreg_3> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outreg_2> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outreg_1> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 5
+# ROMs                                                 : 4
+ 16x7-bit ROM                                          : 4
+# Adders/Subtractors                                   : 1
+ 9-bit subtractor                                      : 1
+# Counters                                             : 2
+ 2-bit up counter                                      : 1
+ 9-bit down counter                                    : 1
+# Registers                                            : 19
+ Flip-Flops                                            : 19
+# Latches                                              : 1
+ 7-bit latch                                           : 1
+# Comparators                                          : 1
+ 2-bit comparator less                                 : 1
+# Multiplexers                                         : 1
+ 7-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <outreg_15> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outreg_14> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outreg_13> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outreg_12> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outreg_11> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outreg_10> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outreg_9> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outreg_8> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outreg_5> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outreg_7> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outreg_6> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outreg_4> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outreg_3> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outreg_2> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outreg_1> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <FSM_FFd16> has a constant value of 1 in block <FSM_1-parent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <FSM_FFd1> has a constant value of 0 in block <FSM_1-parent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <FSM_FFd15> has a constant value of 0 in block <FSM_1-parent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <FSM_FFd14> has a constant value of 0 in block <FSM_1-parent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <FSM_FFd13> has a constant value of 0 in block <FSM_1-parent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <FSM_FFd12> has a constant value of 0 in block <FSM_1-parent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <FSM_FFd11> has a constant value of 0 in block <FSM_1-parent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <FSM_FFd10> has a constant value of 0 in block <FSM_1-parent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <FSM_FFd9> has a constant value of 0 in block <FSM_1-parent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <FSM_FFd8> has a constant value of 0 in block <FSM_1-parent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <FSM_FFd7> has a constant value of 0 in block <FSM_1-parent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <FSM_FFd6> has a constant value of 0 in block <FSM_1-parent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <FSM_FFd5> has a constant value of 0 in block <FSM_1-parent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <FSM_FFd4> has a constant value of 0 in block <FSM_1-parent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <FSM_FFd3> has a constant value of 0 in block <FSM_1-parent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <FSM_FFd2> has a constant value of 0 in block <FSM_1-parent>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2146 - In block <i2c>, ROM <Mrom_cathode_mux0001> <Mrom_cathode_mux0002> <Mrom_cathode_mux0003> <Mrom_cathode_mux0004> are equivalent, XST will keep only <Mrom_cathode_mux0001>.
+WARNING:Xst:1710 - FF/Latch <cathode_0> (without init value) has a constant value of 1 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <cathode_1> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <cathode_2> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <cathode_3> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <cathode_4> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <cathode_5> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <cathode_6> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ack_2> (without init value) has a constant value of 0 in block <i2c>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <i2c> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block i2c, actual ratio is 3.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 42
+ Flip-Flops                                            : 42
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : i2c.ngr
+Top Level Output File Name         : i2c
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 65
+
+Cell Usage :
+# BELS                             : 88
+#      GND                         : 1
+#      INV                         : 19
+#      LUT1                        : 2
+#      LUT2                        : 11
+#      LUT2_L                      : 1
+#      LUT3                        : 6
+#      LUT4                        : 10
+#      LUT4_L                      : 2
+#      MUXCY                       : 16
+#      MUXF5                       : 1
+#      VCC                         : 1
+#      XORCY                       : 18
+# FlipFlops/Latches                : 42
+#      FDE                         : 3
+#      FDR                         : 5
+#      FDRE                        : 24
+#      FDS                         : 7
+#      FDSE                        : 3
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 62
+#      IBUF                        : 1
+#      OBUF                        : 61
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-5 
+
+ Number of Slices:                       34  out of    960     3%  
+ Number of Slice Flip Flops:             42  out of   1920     2%  
+ Number of 4 input LUTs:                 51  out of   1920     2%  
+ Number of IOs:                          65
+ Number of bonded IOBs:                  63  out of     83    75%  
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 10    |
+I2Cclk1                            | BUFG                   | 32    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 6.477ns (Maximum Frequency: 154.389MHz)
+   Minimum input arrival time before clock: 3.654ns
+   Maximum output required time after clock: 5.406ns
+   Maximum combinational path delay: 6.386ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 6.477ns (frequency: 154.389MHz)
+  Total number of paths / destination ports: 496 / 20
+-------------------------------------------------------------------------
+Delay:               6.477ns (Levels of Logic = 6)
+  Source:            clkclk_0 (FF)
+  Destination:       clkclk_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: clkclk_0 to clkclk_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.514   0.532  clkclk_0 (clkclk_0)
+     LUT1:I0->O            1   0.612   0.000  Msub_old_clkclk_5_sub0000_cy<0>_rt (Msub_old_clkclk_5_sub0000_cy<0>_rt)
+     MUXCY:S->O            1   0.404   0.000  Msub_old_clkclk_5_sub0000_cy<0> (Msub_old_clkclk_5_sub0000_cy<0>)
+     MUXCY:CI->O           1   0.051   0.000  Msub_old_clkclk_5_sub0000_cy<1> (Msub_old_clkclk_5_sub0000_cy<1>)
+     XORCY:CI->O           1   0.699   0.387  Msub_old_clkclk_5_sub0000_xor<2> (old_clkclk_5_sub0000<2>)
+     LUT3:I2->O            1   0.612   0.509  I2Cclk_not0002_inv8 (I2Cclk_not0002_inv8)
+     LUT4:I0->O           10   0.612   0.750  I2Cclk_not0002_inv35 (I2Cclk_not0002_inv)
+     FDR:R                     0.795          clkclk_0
+    ----------------------------------------
+    Total                      6.477ns (4.299ns logic, 2.178ns route)
+                                       (66.4% logic, 33.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'I2Cclk1'
+  Clock period: 4.355ns (frequency: 229.624MHz)
+  Total number of paths / destination ports: 127 / 57
+-------------------------------------------------------------------------
+Delay:               4.355ns (Levels of Logic = 4)
+  Source:            bitaddrs7_FSM_FFd3 (FF)
+  Destination:       sda_int (FF)
+  Source Clock:      I2Cclk1 rising
+  Destination Clock: I2Cclk1 rising
+
+  Data Path: bitaddrs7_FSM_FFd3 to sda_int
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             2   0.514   0.532  bitaddrs7_FSM_FFd3 (bitaddrs7_FSM_FFd3)
+     LUT2_L:I0->LO         1   0.612   0.103  sda_int_mux000025 (sda_int_mux000025)
+     LUT4:I3->O            1   0.612   0.387  sda_int_mux000030 (sda_int_mux000030)
+     LUT4_L:I2->LO         1   0.612   0.103  sda_int_mux000050 (sda_int_mux000050)
+     LUT4:I3->O            1   0.612   0.000  sda_int_mux0000188 (sda_int_mux0000)
+     FDS:D                     0.268          sda_int
+    ----------------------------------------
+    Total                      4.355ns (3.230ns logic, 1.125ns route)
+                                       (74.2% logic, 25.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'I2Cclk1'
+  Total number of paths / destination ports: 30 / 30
+-------------------------------------------------------------------------
+Offset:              3.654ns (Levels of Logic = 2)
+  Source:            reset (PAD)
+  Destination:       state_FSM_FFd1 (FF)
+  Destination Clock: I2Cclk1 rising
+
+  Data Path: reset to state_FSM_FFd1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            33   1.106   1.073  reset_IBUF (reset_IBUF)
+     INV:I->O              2   0.612   0.380  state_FSM_ClkEn_FSM_inv1_INV_0 (state_FSM_ClkEn_FSM_inv)
+     FDE:CE                    0.483          state_FSM_FFd1
+    ----------------------------------------
+    Total                      3.654ns (2.201ns logic, 1.453ns route)
+                                       (60.2% logic, 39.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'I2Cclk1'
+  Total number of paths / destination ports: 10 / 6
+-------------------------------------------------------------------------
+Offset:              5.406ns (Levels of Logic = 2)
+  Source:            ab_0 (FF)
+  Destination:       anode<3> (PAD)
+  Source Clock:      I2Cclk1 rising
+
+  Data Path: ab_0 to anode<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              7   0.514   0.754  ab_0 (ab_0)
+     LUT3:I0->O            1   0.612   0.357  anode<3>1 (anode_3_OBUF)
+     OBUF:I->O                 3.169          anode_3_OBUF (anode<3>)
+    ----------------------------------------
+    Total                      5.406ns (4.295ns logic, 1.111ns route)
+                                       (79.5% logic, 20.5% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Delay:               6.386ns (Levels of Logic = 3)
+  Source:            reset (PAD)
+  Destination:       anode<3> (PAD)
+
+  Data Path: reset to anode<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            33   1.106   1.142  reset_IBUF (reset_IBUF)
+     LUT3:I1->O            1   0.612   0.357  anode<3>1 (anode_3_OBUF)
+     OBUF:I->O                 3.169          anode_3_OBUF (anode<3>)
+    ----------------------------------------
+    Total                      6.386ns (4.887ns logic, 1.499ns route)
+                                       (76.5% logic, 23.5% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.66 secs
+ 
+--> 
+
+Total memory usage is 263948 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   60 (   0 filtered)
+Number of infos    :    7 (   0 filtered)
+

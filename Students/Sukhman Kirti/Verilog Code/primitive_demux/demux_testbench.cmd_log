@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "C:/.Xilinx/primitive_demux/demux_testbench.xst" -ofn "C:/.Xilinx/primitive_demux/demux_testbench.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/primitive_demux/demux_testbench.xst" -ofn "C:/.Xilinx/primitive_demux/demux_testbench.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/primitive_demux/demux_testbench.xst" -ofn "C:/.Xilinx/primitive_demux/demux_testbench.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/primitive_demux/demux_testbench.xst" -ofn "C:/.Xilinx/primitive_demux/demux_testbench.syr" 

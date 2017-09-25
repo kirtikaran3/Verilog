@@ -1,0 +1,19 @@
+ISim log file
+Running: C:\Users\kirti\Documents\verilog\MyTestingGround\test5\test_ha_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/kirti/Documents/verilog/MyTestingGround/test5/test_ha_isim_beh.wdb 
+ISim P.28xd (signature 0xa0883be4)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                   0a=0,b=0,c=x,s=x
+                   1a=0,b=0,c=x,s=0
+                   3a=0,b=0,c=0,s=0
+                  10a=0,b=1,c=0,s=0
+                  12a=0,b=1,c=0,s=1
+                  15a=1,b=0,c=0,s=1
+                  20a=1,b=1,c=0,s=1
+                  21a=1,b=1,c=0,s=0
+                  24a=1,b=1,c=1,s=0

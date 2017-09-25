@@ -1,0 +1,16 @@
+net "cathode[6]"  loc = l14;
+net "cathode[5]"  loc = h12;
+net "cathode[4]"  loc = n14;
+net "cathode[3]"  loc = n11;
+net "cathode[2]"  loc = p12;
+net "cathode[1]"  loc = l13;
+net "cathode[0]"  loc = m12;
+net "anode[0]"   loc=k14;
+net "anode[1]"   loc=m13;
+net "anode[2]"   loc=j12;
+net "anode[3]"   loc=f12;
+net "clock_50"   loc=b8;
+net "key[0]"   loc=n3;
+net "key[1]"   loc=e2;
+net "sda"   loc=a9;
+net "scl"   loc=b9;

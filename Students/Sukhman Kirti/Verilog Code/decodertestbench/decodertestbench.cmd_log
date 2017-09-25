@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/.Xilinx/decodertestbench/decodertestbench.xst" -ofn "C:/.Xilinx/decodertestbench/decodertestbench.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/decodertestbench/decodertestbench.xst" -ofn "C:/.Xilinx/decodertestbench/decodertestbench.syr" 

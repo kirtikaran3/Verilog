@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/.Xilinx/encoder_task/encoder_task.xst" -ofn "C:/.Xilinx/encoder_task/encoder_task.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/encoder_task/encoder_task.xst" -ofn "C:/.Xilinx/encoder_task/encoder_task.syr" 

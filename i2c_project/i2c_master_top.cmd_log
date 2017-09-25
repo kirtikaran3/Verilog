@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/i2c_project_net/i2c_project/i2c_master_top.xst" -ofn "E:/i2c_project_net/i2c_project/i2c_master_top.syr" 

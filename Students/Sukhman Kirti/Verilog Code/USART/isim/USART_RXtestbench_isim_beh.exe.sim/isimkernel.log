@@ -1,0 +1,28 @@
+Command line:
+   USART_RXtestbench_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49213
+
+Thu May 05 12:43:39 2016
+
+
+ Elaboration Time: 0.031201 sec
+
+ Current Memory Usage: 501.756 Meg
+
+ Total Signals          : 19
+ Total Nets             : 25
+ Total Signal Drivers   : 10
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 17
+ Total Traceable Variables  : 24
+ Total Scalar Nets and Variables : 118
+
+ Total Simulation Time: 0.078001 sec
+
+ Current Memory Usage: 501.756 Meg
+
+Thu May 05 12:43:54 2016
+

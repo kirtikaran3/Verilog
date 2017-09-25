@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/.Xilinx/ring_counter_testbench/ring_counter_testbench.xst" -ofn "C:/.Xilinx/ring_counter_testbench/ring_counter_testbench.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/ring_counter_testbench/ring_counter_testbench.xst" -ofn "C:/.Xilinx/ring_counter_testbench/ring_counter_testbench.syr" 

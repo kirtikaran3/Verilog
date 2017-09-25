@@ -1,0 +1,18 @@
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/kirti/Documents/verilog/MyTestingGround/udp_body/udp_body_tb_isim_beh.exe -prj C:/Users/kirti/Documents/verilog/MyTestingGround/udp_body/udp_body_tb_beh.prj work.udp_body_tb work.glbl 
+ISim P.28xd (signature 0xa0883be4)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/kirti/Documents/verilog/MyTestingGround/udp_body/udp_body_test.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module udp_body
+Compiling module udp_body_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 3 Verilog Units
+Built simulation executable C:/Users/kirti/Documents/verilog/MyTestingGround/udp_body/udp_body_tb_isim_beh.exe
+Fuse Memory Usage: 28160 KB
+Fuse CPU Usage: 436 ms

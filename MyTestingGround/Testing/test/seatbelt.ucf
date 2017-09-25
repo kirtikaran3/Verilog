@@ -1,0 +1,3 @@
+NET "led" LOC = M11; 
+NET "belt" LOC = P11; 
+NET "key" LOC =  L3; 

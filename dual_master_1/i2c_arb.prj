@@ -1,0 +1,3 @@
+verilog work "master2.v"
+verilog work "master1.v"
+verilog work "i2c_arb.v"

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/kirti/Documents/verilog/test4/funadd.xst" -ofn "C:/Users/kirti/Documents/verilog/test4/funadd.syr" 

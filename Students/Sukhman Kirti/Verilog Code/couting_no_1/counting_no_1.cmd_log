@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/.Xilinx/couting_no_1/counting_no_1.xst" -ofn "C:/.Xilinx/couting_no_1/counting_no_1.syr" 

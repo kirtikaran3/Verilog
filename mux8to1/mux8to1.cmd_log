@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/kirti/Documents/verilog/mux8to1/mux8to1.xst" -ofn "C:/Users/kirti/Documents/verilog/mux8to1/mux8to1.syr" 

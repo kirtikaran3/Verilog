@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "C:/Users/kirti/Documents/verilog/fulladder/Fadder.xst" -ofn "C:/Users/kirti/Documents/verilog/fulladder/Fadder.syr" 
+xst -intstyle ise -ifn "C:/Users/kirti/Documents/verilog/fulladder/Fadder.xst" -ofn "C:/Users/kirti/Documents/verilog/fulladder/Fadder.syr" 
+xst -intstyle ise -ifn "C:/Users/kirti/Documents/verilog/fulladder/Fadder.xst" -ofn "C:/Users/kirti/Documents/verilog/fulladder/Fadder.syr" 
+xst -intstyle ise -ifn "C:/Users/kirti/Documents/verilog/fulladder/Fadder.xst" -ofn "C:/Users/kirti/Documents/verilog/fulladder/Fadder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 Fadder.ngc Fadder.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Fadder_map.ncd Fadder.ngd Fadder.pcf 
+par -w -intstyle ise -ol high -mt off Fadder_map.ncd Fadder.ncd Fadder.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Fadder.twx Fadder.ncd -o Fadder.twr Fadder.pcf 
+xst -intstyle ise -ifn "C:/Users/kirti/Documents/verilog/fulladder/Fadder.xst" -ofn "C:/Users/kirti/Documents/verilog/fulladder/Fadder.syr" 

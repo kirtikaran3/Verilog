@@ -1,0 +1,16 @@
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/.Xilinx/pattern_detector1100/pattern_detector1100_isim_beh.exe -prj C:/.Xilinx/pattern_detector1100/pattern_detector1100_beh.prj work.pattern_detector1100 work.glbl 
+ISim P.28xd (signature 0xa0883be4)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/.Xilinx/pattern_detector1100/pattern_detector1100.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module pattern_detector1100
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 2 Verilog Units
+Built simulation executable C:/.Xilinx/pattern_detector1100/pattern_detector1100_isim_beh.exe
+Fuse Memory Usage: 26232 KB
+Fuse CPU Usage: 389 ms

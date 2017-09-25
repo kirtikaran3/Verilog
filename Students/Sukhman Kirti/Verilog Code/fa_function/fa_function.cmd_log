@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/.Xilinx/fa_function/fa_function.xst" -ofn "C:/.Xilinx/fa_function/fa_function.syr" 

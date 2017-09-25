@@ -1,0 +1,103 @@
+--------------------------------------------------------------------------------
+Release 14.4 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.4\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml master_with_seven_seg.twx master_with_seven_seg.ncd -o
+master_with_seven_seg.twr master_with_seven_seg.pcf -ucf
+master_with_seven_seg.ucf
+
+Design file:              master_with_seven_seg.ncd
+Physical constraint file: master_with_seven_seg.pcf
+Device,package,speed:     xc3s100e,cp132,-5 (PRODUCTION 1.27 2012-12-04)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+RW          |    2.670(R)|    0.334(R)|clk_IBUF          |   0.000|
+reset       |    4.170(R)|    0.759(R)|clk_IBUF          |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock clk to Pad
+-------------+------------+------------------+--------+
+             | clk (edge) |                  | Clock  |
+Destination  |   to PAD   |Internal Clock(s) | Phase  |
+-------------+------------+------------------+--------+
+LED_ADDR<0>  |    7.119(R)|clk_IBUF          |   0.000|
+LED_ADDR<1>  |    7.123(R)|clk_IBUF          |   0.000|
+LED_ADDR<2>  |    7.369(R)|clk_IBUF          |   0.000|
+LED_ADDR<3>  |    6.665(R)|clk_IBUF          |   0.000|
+LED_ADDR<4>  |    7.165(R)|clk_IBUF          |   0.000|
+LED_ADDR<5>  |    7.112(R)|clk_IBUF          |   0.000|
+LED_ADDR<6>  |    7.110(R)|clk_IBUF          |   0.000|
+SEVEN_DATA<0>|    7.657(R)|clk_IBUF          |   0.000|
+SEVEN_DATA<1>|    7.169(R)|clk_IBUF          |   0.000|
+SEVEN_DATA<2>|    6.933(R)|clk_IBUF          |   0.000|
+SEVEN_DATA<3>|    6.903(R)|clk_IBUF          |   0.000|
+SEVEN_DATA<4>|    6.924(R)|clk_IBUF          |   0.000|
+SEVEN_DATA<5>|    7.116(R)|clk_IBUF          |   0.000|
+SEVEN_DATA<6>|    7.944(R)|clk_IBUF          |   0.000|
+SEVEN_DATA<7>|    7.271(R)|clk_IBUF          |   0.000|
+i2c_scl      |    8.815(R)|clk_IBUF          |   0.000|
+i2c_sda      |    6.912(R)|clk_IBUF          |   0.000|
+-------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    5.039|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+clk            |i2c_scl        |    5.465|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Apr 10 03:41:05 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 176 MB
+
+
+

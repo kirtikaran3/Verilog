@@ -1,0 +1,52 @@
+$date
+   Sat Jan 28 08:43:11 2017
+$end
+$version
+  P.28xd
+$end
+$timescale
+  1ps
+$end
+$scope module tb_half_adder $end
+$var wire 1 % s $end
+$var wire 1 & c $end
+$var reg 1 # a $end
+$var reg 1 $ b $end
+$scope module uut $end
+$var wire 1 % s $end
+$var wire 1 & c $end
+$var wire 1 ' a $end
+$var wire 1 ( b $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x#
+x$
+x%
+x&
+x'
+x(
+$end
+#10000
+0#
+0$
+0%
+0&
+0'
+0(
+#20000
+1$
+1%
+1(
+#30000
+1#
+0$
+1'
+0(
+#40000
+1$
+0%
+1&
+1(

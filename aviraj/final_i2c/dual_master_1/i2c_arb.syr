@@ -1,0 +1,621 @@
+Release 14.4 - xst P.49d (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: i2c_arb.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "i2c_arb.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "i2c_arb"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-cp132
+
+---- Source Options
+Top Module Name                    : i2c_arb
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "master2.v" in library work
+Compiling verilog file "master1.v" in library work
+Module <master2> compiled
+Compiling verilog file "i2c_arb.v" in library work
+Module <master1> compiled
+Module <i2c_arb> compiled
+No errors in compilation
+Analysis of file <"i2c_arb.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <i2c_arb> in library <work> with parameters.
+	ADDR = "00000000000000000000000000000010"
+	IDLE = "00000000000000000000000000000000"
+	JUMP1 = "00000000000000000000000000000110"
+	JUMP2 = "00000000000000000000000000000111"
+	JUMP3 = "00000000000000000000000000001000"
+	JUMP4 = "00000000000000000000000000001001"
+	MASTER1 = "00000000000000000000000000000011"
+	MASTER2 = "00000000000000000000000000000100"
+	START = "00000000000000000000000000000001"
+	STOP = "00000000000000000000000000000101"
+
+Analyzing hierarchy for module <master1> in library <work> with parameters.
+	STATE_ACK = "00000000000000000000000000000100"
+	STATE_ADDR = "00000000000000000000000000000010"
+	STATE_DATA = "00000000000000000000000000000101"
+	STATE_IDLE = "00000000000000000000000000000000"
+	STATE_READ = "00000000000000000000000000001001"
+	STATE_RW = "00000000000000000000000000000011"
+	STATE_START = "00000000000000000000000000000001"
+	STATE_STOP = "00000000000000000000000000000110"
+	STATE_WACK2 = "00000000000000000000000000000111"
+	STATE_WRITE = "00000000000000000000000000001000"
+
+Analyzing hierarchy for module <master2> in library <work> with parameters.
+	STATE_ACK = "00000000000000000000000000000100"
+	STATE_ADDR = "00000000000000000000000000000010"
+	STATE_DATA = "00000000000000000000000000000101"
+	STATE_IDLE = "00000000000000000000000000000000"
+	STATE_READ = "00000000000000000000000000001001"
+	STATE_RW = "00000000000000000000000000000011"
+	STATE_START = "00000000000000000000000000000001"
+	STATE_STOP = "00000000000000000000000000000110"
+	STATE_WACK2 = "00000000000000000000000000000111"
+	STATE_WRITE = "00000000000000000000000000001000"
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <i2c_arb>.
+	ADDR = 32'sb00000000000000000000000000000010
+	IDLE = 32'sb00000000000000000000000000000000
+	JUMP1 = 32'sb00000000000000000000000000000110
+	JUMP2 = 32'sb00000000000000000000000000000111
+	JUMP3 = 32'sb00000000000000000000000000001000
+	JUMP4 = 32'sb00000000000000000000000000001001
+	MASTER1 = 32'sb00000000000000000000000000000011
+	MASTER2 = 32'sb00000000000000000000000000000100
+	START = 32'sb00000000000000000000000000000001
+	STOP = 32'sb00000000000000000000000000000101
+"i2c_arb.v" line 83: $display : reset
+"i2c_arb.v" line 90: $display : arb_idle
+"i2c_arb.v" line 98: $display : start
+"i2c_arb.v" line 117: $display : add match
+"i2c_arb.v" line 130: $display : else if master1
+"i2c_arb.v" line 137: $display : else if master2
+"i2c_arb.v" line 142: $display : waps idle
+Module <i2c_arb> is correct for synthesis.
+ 
+Analyzing module <master1> in library <work>.
+	STATE_ACK = 32'sb00000000000000000000000000000100
+	STATE_ADDR = 32'sb00000000000000000000000000000010
+	STATE_DATA = 32'sb00000000000000000000000000000101
+	STATE_IDLE = 32'sb00000000000000000000000000000000
+	STATE_READ = 32'sb00000000000000000000000000001001
+	STATE_RW = 32'sb00000000000000000000000000000011
+	STATE_START = 32'sb00000000000000000000000000000001
+	STATE_STOP = 32'sb00000000000000000000000000000110
+	STATE_WACK2 = 32'sb00000000000000000000000000000111
+	STATE_WRITE = 32'sb00000000000000000000000000001000
+Module <master1> is correct for synthesis.
+ 
+Analyzing module <master2> in library <work>.
+	STATE_ACK = 32'sb00000000000000000000000000000100
+	STATE_ADDR = 32'sb00000000000000000000000000000010
+	STATE_DATA = 32'sb00000000000000000000000000000101
+	STATE_IDLE = 32'sb00000000000000000000000000000000
+	STATE_READ = 32'sb00000000000000000000000000001001
+	STATE_RW = 32'sb00000000000000000000000000000011
+	STATE_START = 32'sb00000000000000000000000000000001
+	STATE_STOP = 32'sb00000000000000000000000000000110
+	STATE_WACK2 = 32'sb00000000000000000000000000000111
+	STATE_WRITE = 32'sb00000000000000000000000000001000
+Module <master2> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+INFO:Xst:2679 - Register <i2c_scl_enab> in unit <i2c_arb> has a constant value of 0 during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <master1>.
+    Related source file is "master1.v".
+WARNING:Xst:646 - Signal <slave_data_read> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <sev_seg_data> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <sev_seg_add> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <save_data> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <save_add> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 9                                              |
+    | Transitions        | 15                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 9                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 00000000                                       |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <i2c_sda>.
+    Found 7-bit register for signal <addr>.
+    Found 8-bit register for signal <count>.
+    Found 8-bit subtractor for signal <count$addsub0000>.
+    Found 8-bit register for signal <data>.
+    Found 1-bit register for signal <i2c_scl_enable>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  25 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   2 Multiplexer(s).
+Unit <master1> synthesized.
+
+
+Synthesizing Unit <master2>.
+    Related source file is "master2.v".
+WARNING:Xst:646 - Signal <slave_data_read> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <sev_seg_data2> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <sev_seg_add2> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <save_data> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <save_add> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <next> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found finite state machine <FSM_1> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 9                                              |
+    | Transitions        | 15                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 9                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 00000000                                       |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <i2c_sda2>.
+    Found 7-bit register for signal <addr2>.
+    Found 8-bit register for signal <count2>.
+    Found 8-bit subtractor for signal <count2$addsub0000>.
+    Found 8-bit register for signal <data2>.
+    Found 1-bit register for signal <i2c_scl2_enable>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  25 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   2 Multiplexer(s).
+Unit <master2> synthesized.
+
+
+Synthesizing Unit <i2c_arb>.
+    Related source file is "i2c_arb.v".
+WARNING:Xst:653 - Signal <s1_slave_addr> is used but never assigned. This sourceless signal will be automatically connected to value 1010101.
+WARNING:Xst:646 - Signal <master_2_store> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <master_1_store> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <i2c_sda_enab> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found 1-bit register for signal <sda>.
+    Found 3-bit register for signal <count1>.
+    Found 3-bit subtractor for signal <count1$addsub0000> created at line 147.
+    Found 3-bit register for signal <count2>.
+    Found 3-bit subtractor for signal <count2$addsub0000> created at line 148.
+    Found 3-bit register for signal <count3>.
+    Found 3-bit subtractor for signal <count3$addsub0000> created at line 159.
+    Found 3-bit register for signal <count4>.
+    Found 3-bit subtractor for signal <count4$addsub0000> created at line 168.
+    Found 7-bit register for signal <m1_addr_store>.
+    Found 7-bit register for signal <m2_addr_store>.
+    Found 4-bit register for signal <state>.
+    Found 7-bit comparator equal for signal <state$cmp_eq0010> created at line 114.
+    Summary:
+	inferred  31 D-type flip-flop(s).
+	inferred   4 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <i2c_arb> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 6
+ 3-bit subtractor                                      : 4
+ 8-bit subtractor                                      : 2
+# Registers                                            : 30
+ 1-bit register                                        : 19
+ 3-bit register                                        : 4
+ 4-bit register                                        : 1
+ 7-bit register                                        : 2
+ 8-bit register                                        : 4
+# Comparators                                          : 1
+ 7-bit comparator equal                                : 1
+# Multiplexers                                         : 4
+ 1-bit 7-to-1 multiplexer                              : 2
+ 1-bit 8-to-1 multiplexer                              : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <M2/state/FSM> on signal <state[1:9]> with one-hot encoding.
+-----------------------
+ State    | Encoding
+-----------------------
+ 00000000 | 000000001
+ 00000001 | 000000010
+ 00000010 | 000000100
+ 00000011 | 000001000
+ 00000100 | 000010000
+ 00001001 | 000100000
+ 00001000 | 001000000
+ 00000111 | 010000000
+ 00000110 | 100000000
+-----------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <M1/state/FSM> on signal <state[1:9]> with one-hot encoding.
+-----------------------
+ State    | Encoding
+-----------------------
+ 00000000 | 000000001
+ 00000001 | 000000010
+ 00000010 | 000000100
+ 00000011 | 000001000
+ 00000100 | 000010000
+ 00001001 | 000100000
+ 00001000 | 001000000
+ 00000111 | 010000000
+ 00000110 | 100000000
+-----------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 2
+# Adders/Subtractors                                   : 6
+ 3-bit subtractor                                      : 4
+ 8-bit subtractor                                      : 2
+# Registers                                            : 81
+ Flip-Flops                                            : 81
+# Comparators                                          : 1
+ 7-bit comparator equal                                : 1
+# Multiplexers                                         : 4
+ 1-bit 7-to-1 multiplexer                              : 2
+ 1-bit 8-to-1 multiplexer                              : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <i2c_arb> ...
+
+Optimizing unit <master1> ...
+
+Optimizing unit <master2> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+INFO:Xst:2261 - The FF/Latch <M1/state_FSM_FFd9> in Unit <i2c_arb> is equivalent to the following FF/Latch, which will be removed : <M2/state_FSM_FFd9> 
+INFO:Xst:2261 - The FF/Latch <M1/state_FSM_FFd8> in Unit <i2c_arb> is equivalent to the following FF/Latch, which will be removed : <M2/state_FSM_FFd8> 
+Found area constraint ratio of 100 (+ 5) on block i2c_arb, actual ratio is 12.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 97
+ Flip-Flops                                            : 97
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : i2c_arb.ngr
+Top Level Output File Name         : i2c_arb
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 36
+
+Cell Usage :
+# BELS                             : 253
+#      GND                         : 1
+#      INV                         : 1
+#      LUT1                        : 2
+#      LUT2                        : 15
+#      LUT2_D                      : 1
+#      LUT3                        : 57
+#      LUT3_D                      : 3
+#      LUT3_L                      : 12
+#      LUT4                        : 108
+#      LUT4_D                      : 18
+#      LUT4_L                      : 9
+#      MUXF5                       : 21
+#      MUXF6                       : 4
+#      VCC                         : 1
+# FlipFlops/Latches                : 97
+#      FDE                         : 50
+#      FDR                         : 21
+#      FDRE                        : 2
+#      FDRS                        : 18
+#      FDRSE                       : 2
+#      FDS                         : 4
+# Clock Buffers                    : 1
+#      BUFG                        : 1
+# IO Buffers                       : 36
+#      IBUF                        : 34
+#      OBUF                        : 2
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-5 
+
+ Number of Slices:                      125  out of    960    13%  
+ Number of Slice Flip Flops:             97  out of   1920     5%  
+ Number of 4 input LUTs:                226  out of   1920    11%  
+ Number of IOs:                          36
+ Number of bonded IOBs:                  36  out of     83    43%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | IBUF+BUFG              | 97    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 8.261ns (Maximum Frequency: 121.054MHz)
+   Minimum input arrival time before clock: 5.606ns
+   Maximum output required time after clock: 5.184ns
+   Maximum combinational path delay: 5.764ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 8.261ns (frequency: 121.054MHz)
+  Total number of paths / destination ports: 2792 / 102
+-------------------------------------------------------------------------
+Delay:               8.261ns (Levels of Logic = 7)
+  Source:            count2_0 (FF)
+  Destination:       count4_1 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: count2_0 to count4_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             16   0.514   0.948  count2_0 (count2_0)
+     LUT3:I1->O            1   0.612   0.360  _mux0007_SW0 (N66)
+     LUT4_D:I3->LO         1   0.612   0.252  _mux0007 (N147)
+     LUT4:I0->O            1   0.612   0.360  state_cmp_eq0012_SW0 (N54)
+     LUT4:I3->O            2   0.612   0.532  state_cmp_eq0012 (state_cmp_eq0012)
+     LUT2:I0->O            2   0.612   0.383  count4_mux0000<0>23 (count4_mux0000<0>23)
+     LUT4_D:I3->O          1   0.612   0.360  count4_mux0000<0>229 (N5)
+     LUT4:I3->O            1   0.612   0.000  count4_mux0000<1> (count4_mux0000<1>)
+     FDE:D                     0.268          count4_1
+    ----------------------------------------
+    Total                      8.261ns (5.066ns logic, 3.195ns route)
+                                       (61.3% logic, 38.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 173 / 166
+-------------------------------------------------------------------------
+Offset:              5.606ns (Levels of Logic = 5)
+  Source:            RW (PAD)
+  Destination:       M2/count2_7 (FF)
+  Destination Clock: clk rising
+
+  Data Path: RW to M2/count2_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            10   1.106   0.819  RW_IBUF (RW_IBUF)
+     LUT4:I1->O            4   0.612   0.502  M2/state_FSM_FFd5-In1 (M2/state_FSM_FFd5-In)
+     LUT4_D:I3->LO         1   0.612   0.103  M2/count2_mux0000<0>51 (N137)
+     LUT4:I3->O            1   0.612   0.360  M2/count2_mux0000<0>12 (M2/count2_mux0000<0>12)
+     LUT4:I3->O            1   0.612   0.000  M2/count2_mux0000<0>37 (M2/count2_mux0000<0>)
+     FDR:D                     0.268          M2/count2_7
+    ----------------------------------------
+    Total                      5.606ns (3.822ns logic, 1.784ns route)
+                                       (68.2% logic, 31.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              5.184ns (Levels of Logic = 2)
+  Source:            M1/i2c_scl_enable (FF)
+  Destination:       scl (PAD)
+  Source Clock:      clk rising
+
+  Data Path: M1/i2c_scl_enable to scl
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.514   0.532  M1/i2c_scl_enable (M1/i2c_scl_enable)
+     LUT2:I0->O            1   0.612   0.357  M1/i2c_scl1 (scl_OBUF)
+     OBUF:I->O                 3.169          scl_OBUF (scl)
+    ----------------------------------------
+    Total                      5.184ns (4.295ns logic, 0.889ns route)
+                                       (82.9% logic, 17.1% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               5.764ns (Levels of Logic = 3)
+  Source:            clk (PAD)
+  Destination:       scl (PAD)
+
+  Data Path: clk to scl
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.106   0.520  clk_IBUF (clk_IBUF1)
+     LUT2:I1->O            1   0.612   0.357  M1/i2c_scl1 (scl_OBUF)
+     OBUF:I->O                 3.169          scl_OBUF (scl)
+    ----------------------------------------
+    Total                      5.764ns (4.887ns logic, 0.877ns route)
+                                       (84.8% logic, 15.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 8.96 secs
+ 
+--> 
+
+Total memory usage is 305756 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   15 (   0 filtered)
+Number of infos    :    4 (   0 filtered)
+

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "E:/i2c_project_net/i2c_project/testHarness_isim_beh.exe" -prj "E:/i2c_project_net/i2c_project/testHarness_beh.prj" "work.testHarness" "work.glbl" 

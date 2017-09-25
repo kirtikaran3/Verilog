@@ -1,0 +1,33 @@
+//! **************************************************************************
+// Written by: Map P.28xd on Mon Apr 24 14:04:46 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "outreg<10>" LOCATE = SITE "P7" LEVEL 1;
+COMP "outreg<11>" LOCATE = SITE "P6" LEVEL 1;
+COMP "outreg<12>" LOCATE = SITE "N5" LEVEL 1;
+COMP "clk" LOCATE = SITE "B8" LEVEL 1;
+COMP "outreg<13>" LOCATE = SITE "N4" LEVEL 1;
+COMP "outreg<14>" LOCATE = SITE "P4" LEVEL 1;
+COMP "outreg<15>" LOCATE = SITE "G1" LEVEL 1;
+COMP "sda" LOCATE = SITE "A13" LEVEL 1;
+COMP "outreg<8>" LOCATE = SITE "M5" LEVEL 1;
+COMP "outreg<9>" LOCATE = SITE "M11" LEVEL 1;
+COMP "scl" LOCATE = SITE "C12" LEVEL 1;
+COMP "cathode<0>" LOCATE = SITE "M12" LEVEL 1;
+COMP "anode<0>" LOCATE = SITE "K14" LEVEL 1;
+COMP "cathode<1>" LOCATE = SITE "L13" LEVEL 1;
+COMP "anode<1>" LOCATE = SITE "M13" LEVEL 1;
+COMP "cathode<2>" LOCATE = SITE "P12" LEVEL 1;
+COMP "anode<2>" LOCATE = SITE "J12" LEVEL 1;
+COMP "cathode<3>" LOCATE = SITE "N11" LEVEL 1;
+COMP "anode<3>" LOCATE = SITE "F12" LEVEL 1;
+COMP "cathode<4>" LOCATE = SITE "N14" LEVEL 1;
+COMP "cathode<5>" LOCATE = SITE "H12" LEVEL 1;
+COMP "cathode<6>" LOCATE = SITE "L14" LEVEL 1;
+COMP "reset" LOCATE = SITE "N3" LEVEL 1;
+PIN reset_pin<0> = BEL "reset" PINNAME PAD;
+PIN "reset_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

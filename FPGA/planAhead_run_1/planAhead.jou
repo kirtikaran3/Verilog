@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.2 (64-bit)
+# Build 194362 by xbuild on Fri Jul 20 18:52:11 MDT 2012
+# Start of session at: Tue Nov 15 07:59:12 2016
+# Process ID: 244
+# Log file: C:/Users/Kirti Karan/Documents/verilog/FPGA/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Kirti Karan/Documents/verilog/FPGA/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/Kirti Karan/Documents/verilog/FPGA/pa.fromHdl.tcl}

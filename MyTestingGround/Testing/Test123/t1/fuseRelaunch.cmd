@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/Kirti/Documents/verilog/Test123/t1/andgate_isim_beh.exe" -prj "C:/Users/Kirti/Documents/verilog/Test123/t1/andgate_beh.prj" "work.andgate" "work.glbl" 

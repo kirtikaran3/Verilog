@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/Kirti Karan/Documents/verilog/test/seatbelt.xst" -ofn "C:/Users/Kirti Karan/Documents/verilog/test/seatbelt.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 "seatbelt.ngc" seatbelt.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o seatbelt_map.ncd seatbelt.ngd seatbelt.pcf 
+par -w -intstyle ise -ol high -t 1 seatbelt_map.ncd seatbelt.ncd seatbelt.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml seatbelt.twx seatbelt.ncd -o seatbelt.twr seatbelt.pcf 
+bitgen -intstyle ise -f seatbelt.ut seatbelt.ncd 
+xst -intstyle ise -ifn "C:/Users/Kirti Karan/Documents/verilog/test/seatbelt.xst" -ofn "C:/Users/Kirti Karan/Documents/verilog/test/seatbelt.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc seatbelt.ucf -p xc3s100e-cp132-4 "seatbelt.ngc" seatbelt.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o seatbelt_map.ncd seatbelt.ngd seatbelt.pcf 
+par -w -intstyle ise -ol high -t 1 seatbelt_map.ncd seatbelt.ncd seatbelt.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml seatbelt.twx seatbelt.ncd -o seatbelt.twr seatbelt.pcf -ucf seatbelt.ucf 
+bitgen -intstyle ise -f seatbelt.ut seatbelt.ncd 

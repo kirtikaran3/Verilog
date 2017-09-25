@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/kirti/Documents/verilog/FunMux/MUX4X1_Using_TASK_isim_beh.exe" -prj "C:/Users/kirti/Documents/verilog/FunMux/MUX4X1_Using_TASK_beh.prj" "work.MUX4X1_Using_TASK" "work.glbl" 

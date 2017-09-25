@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj single_master_slave -o E:/final_i2c/single_master_slave/slave11.tfi -lib work E:/final_i2c/single_master_slave//slave11.v -module slave11 -template C:/Xilinx/14.4/ISE_DS/ISE//data/tfi.tft -deleteonerror 

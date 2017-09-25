@@ -1,0 +1,99 @@
+xst -intstyle ise -ifn "C:/Users/Kirti/Documents/verilog/vTest/i2c.xst" -ofn "C:/Users/Kirti/Documents/verilog/vTest/i2c.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 i2c.ngc i2c.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o i2c_map.ncd i2c.ngd i2c.pcf 
+par -w -intstyle ise -ol high -t 1 i2c_map.ncd i2c.ncd i2c.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml i2c.twx i2c.ncd -o i2c.twr i2c.pcf 
+bitgen -intstyle ise -f i2c.ut i2c.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i2c_rtc.ucf -p xc3s100e-cp132-5 i2c.ngc i2c.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o i2c_map.ncd i2c.ngd i2c.pcf 
+par -w -intstyle ise -ol high -t 1 i2c_map.ncd i2c.ncd i2c.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i2c_rtc.ucf -p xc3s100e-cp132-5 i2c.ngc i2c.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o i2c_map.ncd i2c.ngd i2c.pcf 
+par -w -intstyle ise -ol high -t 1 i2c_map.ncd i2c.ncd i2c.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml i2c.twx i2c.ncd -o i2c.twr i2c.pcf -ucf i2c_rtc.ucf 
+bitgen -intstyle ise -f i2c.ut i2c.ncd 
+xst -intstyle ise -ifn "C:/Users/Kirti/Documents/verilog/vTest/i2c.xst" -ofn "C:/Users/Kirti/Documents/verilog/vTest/i2c.syr" 
+xst -intstyle ise -ifn "C:/Users/Kirti/Documents/verilog/vTest/i2c.xst" -ofn "C:/Users/Kirti/Documents/verilog/vTest/i2c.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i2c_rtc.ucf -p xc3s100e-cp132-5 i2c.ngc i2c.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o i2c_map.ncd i2c.ngd i2c.pcf 
+par -w -intstyle ise -ol high -t 1 i2c_map.ncd i2c.ncd i2c.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml i2c.twx i2c.ncd -o i2c.twr i2c.pcf -ucf i2c_rtc.ucf 
+bitgen -intstyle ise -f i2c.ut i2c.ncd 
+xst -intstyle ise -ifn "C:/Users/Kirti/Documents/verilog/vTest/i2c.xst" -ofn "C:/Users/Kirti/Documents/verilog/vTest/i2c.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i2c_rtc.ucf -p xc3s100e-cp132-5 i2c.ngc i2c.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o i2c_map.ncd i2c.ngd i2c.pcf 
+par -w -intstyle ise -ol high -t 1 i2c_map.ncd i2c.ncd i2c.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml i2c.twx i2c.ncd -o i2c.twr i2c.pcf -ucf i2c_rtc.ucf 
+bitgen -intstyle ise -f i2c.ut i2c.ncd 
+xst -intstyle ise -ifn "C:/Users/Kirti/Documents/verilog/vTest/i2c.xst" -ofn "C:/Users/Kirti/Documents/verilog/vTest/i2c.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i2c_rtc.ucf -p xc3s100e-cp132-5 i2c.ngc i2c.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o i2c_map.ncd i2c.ngd i2c.pcf 
+par -w -intstyle ise -ol high -t 1 i2c_map.ncd i2c.ncd i2c.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml i2c.twx i2c.ncd -o i2c.twr i2c.pcf -ucf i2c_rtc.ucf 
+bitgen -intstyle ise -f i2c.ut i2c.ncd 
+xst -intstyle ise -ifn "C:/Users/Kirti/Documents/verilog/vTest/i2c.xst" -ofn "C:/Users/Kirti/Documents/verilog/vTest/i2c.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i2c_rtc.ucf -p xc3s100e-cp132-5 i2c.ngc i2c.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o i2c_map.ncd i2c.ngd i2c.pcf 
+par -w -intstyle ise -ol high -t 1 i2c_map.ncd i2c.ncd i2c.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml i2c.twx i2c.ncd -o i2c.twr i2c.pcf -ucf i2c_rtc.ucf 
+bitgen -intstyle ise -f i2c.ut i2c.ncd 
+xst -intstyle ise -ifn "C:/Users/Kirti/Documents/verilog/vTest/i2c.xst" -ofn "C:/Users/Kirti/Documents/verilog/vTest/i2c.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i2c_rtc.ucf -p xc3s100e-cp132-5 i2c.ngc i2c.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o i2c_map.ncd i2c.ngd i2c.pcf 
+par -w -intstyle ise -ol high -t 1 i2c_map.ncd i2c.ncd i2c.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml i2c.twx i2c.ncd -o i2c.twr i2c.pcf -ucf i2c_rtc.ucf 
+bitgen -intstyle ise -f i2c.ut i2c.ncd 
+xst -intstyle ise -ifn "C:/Users/Kirti/Documents/verilog/vTest/i2c.xst" -ofn "C:/Users/Kirti/Documents/verilog/vTest/i2c.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i2c_rtc.ucf -p xc3s100e-cp132-5 i2c.ngc i2c.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o i2c_map.ncd i2c.ngd i2c.pcf 
+par -w -intstyle ise -ol high -t 1 i2c_map.ncd i2c.ncd i2c.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml i2c.twx i2c.ncd -o i2c.twr i2c.pcf -ucf i2c_rtc.ucf 
+bitgen -intstyle ise -f i2c.ut i2c.ncd 
+xst -intstyle ise -ifn "C:/Users/Kirti/Documents/verilog/vTest/i2c.xst" -ofn "C:/Users/Kirti/Documents/verilog/vTest/i2c.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i2c_rtc.ucf -p xc3s100e-cp132-5 i2c.ngc i2c.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o i2c_map.ncd i2c.ngd i2c.pcf 
+par -w -intstyle ise -ol high -t 1 i2c_map.ncd i2c.ncd i2c.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml i2c.twx i2c.ncd -o i2c.twr i2c.pcf -ucf i2c_rtc.ucf 
+bitgen -intstyle ise -f i2c.ut i2c.ncd 
+xst -intstyle ise -ifn "C:/Users/Kirti/Documents/verilog/vTest/i2c.xst" -ofn "C:/Users/Kirti/Documents/verilog/vTest/i2c.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i2c_rtc.ucf -p xc3s100e-cp132-5 i2c.ngc i2c.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o i2c_map.ncd i2c.ngd i2c.pcf 
+par -w -intstyle ise -ol high -t 1 i2c_map.ncd i2c.ncd i2c.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml i2c.twx i2c.ncd -o i2c.twr i2c.pcf -ucf i2c_rtc.ucf 
+bitgen -intstyle ise -f i2c.ut i2c.ncd 
+xst -intstyle ise -ifn "C:/Users/Kirti/Documents/verilog/vTest/i2c.xst" -ofn "C:/Users/Kirti/Documents/verilog/vTest/i2c.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i2c_rtc.ucf -p xc3s100e-cp132-5 i2c.ngc i2c.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o i2c_map.ncd i2c.ngd i2c.pcf 
+par -w -intstyle ise -ol high -t 1 i2c_map.ncd i2c.ncd i2c.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml i2c.twx i2c.ncd -o i2c.twr i2c.pcf -ucf i2c_rtc.ucf 
+bitgen -intstyle ise -f i2c.ut i2c.ncd 
+xst -intstyle ise -ifn "C:/Users/Kirti/Documents/verilog/vTest/i2c.xst" -ofn "C:/Users/Kirti/Documents/verilog/vTest/i2c.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i2c_rtc.ucf -p xc3s100e-cp132-5 i2c.ngc i2c.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o i2c_map.ncd i2c.ngd i2c.pcf 
+par -w -intstyle ise -ol high -t 1 i2c_map.ncd i2c.ncd i2c.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml i2c.twx i2c.ncd -o i2c.twr i2c.pcf -ucf i2c_rtc.ucf 
+bitgen -intstyle ise -f i2c.ut i2c.ncd 
+xst -intstyle ise -ifn "C:/Users/Kirti/Documents/verilog/vTest/i2c.xst" -ofn "C:/Users/Kirti/Documents/verilog/vTest/i2c.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i2c_rtc.ucf -p xc3s100e-cp132-5 i2c.ngc i2c.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o i2c_map.ncd i2c.ngd i2c.pcf 
+par -w -intstyle ise -ol high -t 1 i2c_map.ncd i2c.ncd i2c.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml i2c.twx i2c.ncd -o i2c.twr i2c.pcf -ucf i2c_rtc.ucf 
+bitgen -intstyle ise -f i2c.ut i2c.ncd 
+xst -intstyle ise -ifn "C:/Users/Kirti/Documents/verilog/vTest/i2c.xst" -ofn "C:/Users/Kirti/Documents/verilog/vTest/i2c.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i2c_rtc.ucf -p xc3s100e-cp132-5 i2c.ngc i2c.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o i2c_map.ncd i2c.ngd i2c.pcf 
+par -w -intstyle ise -ol high -t 1 i2c_map.ncd i2c.ncd i2c.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml i2c.twx i2c.ncd -o i2c.twr i2c.pcf -ucf i2c_rtc.ucf 
+bitgen -intstyle ise -f i2c.ut i2c.ncd 
+xst -intstyle ise -ifn "C:/Users/Kirti/Documents/verilog/vTest/i2c.xst" -ofn "C:/Users/Kirti/Documents/verilog/vTest/i2c.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i2c_rtc.ucf -p xc3s100e-cp132-5 i2c.ngc i2c.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o i2c_map.ncd i2c.ngd i2c.pcf 
+par -w -intstyle ise -ol high -t 1 i2c_map.ncd i2c.ncd i2c.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml i2c.twx i2c.ncd -o i2c.twr i2c.pcf -ucf i2c_rtc.ucf 
+bitgen -intstyle ise -f i2c.ut i2c.ncd 
+xst -intstyle ise -ifn "C:/Users/Kirti/Documents/verilog/vTest/i2c.xst" -ofn "C:/Users/Kirti/Documents/verilog/vTest/i2c.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i2c_rtc.ucf -p xc3s100e-cp132-5 i2c.ngc i2c.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o i2c_map.ncd i2c.ngd i2c.pcf 
+par -w -intstyle ise -ol high -t 1 i2c_map.ncd i2c.ncd i2c.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml i2c.twx i2c.ncd -o i2c.twr i2c.pcf -ucf i2c_rtc.ucf 
+bitgen -intstyle ise -f i2c.ut i2c.ncd 

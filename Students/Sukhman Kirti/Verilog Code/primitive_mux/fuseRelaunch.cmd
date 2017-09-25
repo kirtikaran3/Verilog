@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/.Xilinx/primitive_mux/muxtestbench_isim_beh.exe" -prj "C:/.Xilinx/primitive_mux/muxtestbench_beh.prj" "work.muxtestbench" "work.glbl" 

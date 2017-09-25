@@ -1,0 +1,15 @@
+ISim log file
+Running: C:\Users\kirti\Documents\verilog\MyTestingGround\uart\USART_TXtestbench_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/kirti/Documents/verilog/MyTestingGround/uart/USART_TXtestbench_isim_beh.wdb 
+ISim P.28xd (signature 0xa0883be4)
+This is a Full version of ISim.
+WARNING: File "C:/Users/kirti/Documents/verilog/MyTestingGround/uart/uart_tx.v" Line 70.  For instance USART_TXtestbench/n1/, width 8 of formal port din is not equal to width 1 of actual variable clk. 
+WARNING: File "C:/Users/kirti/Documents/verilog/MyTestingGround/uart/uart_tx.v" Line 66.  For instance USART_TXtestbench/n1/, width 1 of formal port clk is not equal to width 8 of actual variable din. 
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+                   0clk=x,reset=x,load=x,shift=x,din=xxxxxxxx,ready=x,tx_data=x
+Finished circuit initialization process.
+                   0clk=x,reset=0,load=1,shift=0,din=11001101,ready=x,tx_data=x
+                   5clk=x,reset=0,load=0,shift=1,din=11001101,ready=1,tx_data=x

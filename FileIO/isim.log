@@ -1,0 +1,134 @@
+ISim log file
+Running: C:\Users\Kirti\Documents\verilog\FileIO\fileio_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Kirti/Documents/verilog/FileIO/fileio_isim_beh.wdb 
+ISim P.28xd (signature 0xa0883be4)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+WARNING: at 0 ps: file output.txt could not be opened
+
+
+Finished circuit initialization process.
+ERROR: File descriptor (0) passed to $fscanf is not valid
+23ns Error : input and output does not match
+       Got  045608a1
+       Exp  00000000
+ERROR: File descriptor (0) passed to $fscanf is not valid
+27ns Error : input and output does not match
+       Got  045708a2
+       Exp  00000000
+ERROR: File descriptor (0) passed to $fscanf is not valid
+31ns Error : input and output does not match
+       Got  045808a3
+       Exp  00000000
+ERROR: File descriptor (0) passed to $fscanf is not valid
+35ns Error : input and output does not match
+       Got  045908a4
+       Exp  00000000
+ERROR: File descriptor (0) passed to $fscanf is not valid
+39ns Error : input and output does not match
+       Got  045a08a5
+       Exp  00000000
+ERROR: File descriptor (0) passed to $fscanf is not valid
+43ns Error : input and output does not match
+       Got  045b08a6
+       Exp  00000000
+ERROR: File descriptor (0) passed to $fscanf is not valid
+47ns Error : input and output does not match
+       Got  045c08a7
+       Exp  00000000
+ERROR: File descriptor (0) passed to $fscanf is not valid
+51ns Error : input and output does not match
+       Got  045d08a8
+       Exp  00000000
+ERROR: File descriptor (0) passed to $fscanf is not valid
+55ns Error : input and output does not match
+       Got  045e08a9
+       Exp  00000000
+ERROR: File descriptor (0) passed to $fscanf is not valid
+59ns Error : input and output does not match
+       Got  045f08aa
+       Exp  00000000
+ERROR: File descriptor (0) passed to $fscanf is not valid
+63ns Error : input and output does not match
+       Got  046008ab
+       Exp  00000000
+ERROR: File descriptor (0) passed to $fscanf is not valid
+67ns Error : input and output does not match
+       Got  046108ac
+       Exp  00000000
+ERROR: File descriptor (0) passed to $fscanf is not valid
+71ns Error : input and output does not match
+       Got  046208ad
+       Exp  00000000
+ERROR: File descriptor (0) passed to $fscanf is not valid
+75ns Error : input and output does not match
+       Got  046308ae
+       Exp  00000000
+ERROR: File descriptor (0) passed to $fscanf is not valid
+79ns Error : input and output does not match
+       Got  046408af
+       Exp  00000000
+ERROR: File descriptor (0) passed to $fscanf is not valid
+83ns Error : input and output does not match
+       Got  046508b0
+       Exp  00000000
+ERROR: File descriptor (0) passed to $fscanf is not valid
+87ns Error : input and output does not match
+       Got  046608b1
+       Exp  00000000
+ERROR: File descriptor (0) passed to $fscanf is not valid
+91ns Error : input and output does not match
+       Got  046708b2
+       Exp  00000000
+ERROR: File descriptor (0) passed to $fscanf is not valid
+95ns Error : input and output does not match
+       Got  046808b3
+       Exp  00000000
+ERROR: File descriptor (0) passed to $fscanf is not valid
+99ns Error : input and output does not match
+       Got  046908b4
+       Exp  00000000
+ERROR: File descriptor (0) passed to $fscanf is not valid
+103ns Error : input and output does not match
+       Got  046a08b5
+       Exp  00000000
+ERROR: File descriptor (0) passed to $fscanf is not valid
+107ns Error : input and output does not match
+       Got  046b08b6
+       Exp  00000000
+ERROR: File descriptor (0) passed to $fscanf is not valid
+111ns Error : input and output does not match
+       Got  046c08b7
+       Exp  00000000
+ERROR: File descriptor (0) passed to $fscanf is not valid
+115ns Error : input and output does not match
+       Got  046d08b8
+       Exp  00000000
+ERROR: File descriptor (0) passed to $fscanf is not valid
+119ns Error : input and output does not match
+       Got  046e08b9
+       Exp  00000000
+ERROR: File descriptor (0) passed to $fscanf is not valid
+123ns Error : input and output does not match
+       Got  046f08ba
+       Exp  00000000
+ERROR: File descriptor (0) passed to $fscanf is not valid
+127ns Error : input and output does not match
+       Got  047008bb
+       Exp  00000000
+ERROR: File descriptor (0) passed to $fscanf is not valid
+131ns Error : input and output does not match
+       Got  047108bc
+       Exp  00000000
+ERROR: File descriptor (0) passed to $fscanf is not valid
+135ns Error : input and output does not match
+       Got  047208bd
+       Exp  00000000
+ERROR: File descriptor (0) passed to $fscanf is not valid
+139ns Error : input and output does not match
+       Got  047308be
+       Exp  00000000
+Stopped at time : 257 ns : File "C:/Users/Kirti/Documents/verilog/FileIO/fileio.v" Line 61

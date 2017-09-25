@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/.Xilinx/swtch_level_modelling_not/swtch_level_modelling_not_isim_beh.exe" -prj "C:/.Xilinx/swtch_level_modelling_not/swtch_level_modelling_not_beh.prj" "work.swtch_level_modelling_not" "work.glbl" 

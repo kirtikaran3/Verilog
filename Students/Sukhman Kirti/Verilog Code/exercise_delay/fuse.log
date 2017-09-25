@@ -1,0 +1,19 @@
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/.Xilinx/exercise_delay/exercisetestbench_isim_beh.exe -prj C:/.Xilinx/exercise_delay/exercisetestbench_beh.prj work.exercisetestbench work.glbl 
+ISim P.28xd (signature 0xa0883be4)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/.Xilinx/exercise_delay/exercise_delay.v" into library work
+WARNING:HDLCompiler:485 - "C:/.Xilinx/exercise_delay/exercise_delay.v" Line 38: Illegal format specifier i for monitor
+Analyzing Verilog file "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module exercise_delay
+Compiling module exercisetestbench
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 3 Verilog Units
+Built simulation executable C:/.Xilinx/exercise_delay/exercisetestbench_isim_beh.exe
+Fuse Memory Usage: 26404 KB
+Fuse CPU Usage: 405 ms

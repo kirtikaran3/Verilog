@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/.Xilinx/primitive_orgate/ortestbench.xst" -ofn "C:/.Xilinx/primitive_orgate/ortestbench.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/primitive_orgate/ortestbench.xst" -ofn "C:/.Xilinx/primitive_orgate/ortestbench.syr" 

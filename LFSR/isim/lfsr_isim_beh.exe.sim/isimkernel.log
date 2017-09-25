@@ -1,0 +1,10 @@
+Command line:
+   lfsr_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50055
+
+Mon Feb 15 02:31:17 2016
+
+
+ Elaboration Time: 0.046801 sec

@@ -1,0 +1,4 @@
+NET "in0" LOC = P11;
+NET "in1" LOC = K3;
+NET "out" LOC = M11;
+

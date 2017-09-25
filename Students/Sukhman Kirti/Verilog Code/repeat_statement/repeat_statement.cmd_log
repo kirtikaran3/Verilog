@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/.Xilinx/repeat_statement/repeat_statement.xst" -ofn "C:/.Xilinx/repeat_statement/repeat_statement.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/repeat_statement/repeat_statement.xst" -ofn "C:/.Xilinx/repeat_statement/repeat_statement.syr" 

@@ -1,0 +1,3 @@
+NET "D" LOC = M5; 
+NET "clk" LOC = B8; 
+NET "led" LOC = M3;

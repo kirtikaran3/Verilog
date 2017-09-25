@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/.Xilinx/counter_for/counter_for.xst" -ofn "C:/.Xilinx/counter_for/counter_for.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/counter_for/counter_for.xst" -ofn "C:/.Xilinx/counter_for/counter_for.syr" 

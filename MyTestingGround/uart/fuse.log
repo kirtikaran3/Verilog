@@ -1,0 +1,19 @@
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/kirti/Documents/verilog/MyTestingGround/uart/USART_TXtestbench_isim_beh.exe -prj C:/Users/kirti/Documents/verilog/MyTestingGround/uart/USART_TXtestbench_beh.prj work.USART_TXtestbench work.glbl 
+ISim P.28xd (signature 0xa0883be4)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/kirti/Documents/verilog/MyTestingGround/uart/uart_tx.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "C:/Users/kirti/Documents/verilog/MyTestingGround/uart/uart_tx.v" Line 75: Size mismatch in connection of port <din>. Formal port size is 8-bit while actual signal size is 1-bit.
+Completed static elaboration
+Compiling module USART_TX
+Compiling module USART_TXtestbench
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 3 sub-compilation(s) to finish...
+Compiled 3 Verilog Units
+Built simulation executable C:/Users/kirti/Documents/verilog/MyTestingGround/uart/USART_TXtestbench_isim_beh.exe
+Fuse Memory Usage: 28528 KB
+Fuse CPU Usage: 498 ms

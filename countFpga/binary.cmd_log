@@ -1,0 +1,31 @@
+xst -intstyle ise -ifn "C:/Users/Kirti Karan/Documents/verilog/countFpga/binary.xst" -ofn "C:/Users/Kirti Karan/Documents/verilog/countFpga/binary.syr" 
+xst -intstyle ise -ifn "C:/Users/Kirti Karan/Documents/verilog/countFpga/binary.xst" -ofn "C:/Users/Kirti Karan/Documents/verilog/countFpga/binary.syr" 
+xst -intstyle ise -ifn "C:/Users/Kirti Karan/Documents/verilog/countFpga/binary.xst" -ofn "C:/Users/Kirti Karan/Documents/verilog/countFpga/binary.syr" 
+xst -intstyle ise -ifn "C:/Users/Kirti Karan/Documents/verilog/countFpga/binary.xst" -ofn "C:/Users/Kirti Karan/Documents/verilog/countFpga/binary.syr" 
+xst -intstyle ise -ifn "C:/Users/Kirti Karan/Documents/verilog/countFpga/binary.xst" -ofn "C:/Users/Kirti Karan/Documents/verilog/countFpga/binary.syr" 
+xst -intstyle ise -ifn "C:/Users/Kirti Karan/Documents/verilog/countFpga/binary.xst" -ofn "C:/Users/Kirti Karan/Documents/verilog/countFpga/binary.syr" 
+xst -intstyle ise -ifn "C:/Users/Kirti Karan/Documents/verilog/countFpga/binary.xst" -ofn "C:/Users/Kirti Karan/Documents/verilog/countFpga/binary.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc binary.ucf -p xc3s100e-cp132-4 "binary.ngc" binary.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o binary_map.ncd binary.ngd binary.pcf 
+par -w -intstyle ise -ol high -t 1 binary_map.ncd binary.ncd binary.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml binary.twx binary.ncd -o binary.twr binary.pcf -ucf binary.ucf 
+bitgen -intstyle ise -f binary.ut binary.ncd 
+xst -intstyle ise -ifn "C:/Users/Kirti Karan/Documents/verilog/countFpga/binary.xst" -ofn "C:/Users/Kirti Karan/Documents/verilog/countFpga/binary.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc binary.ucf -p xc3s100e-cp132-4 "binary.ngc" binary.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o binary_map.ncd binary.ngd binary.pcf 
+par -w -intstyle ise -ol high -t 1 binary_map.ncd binary.ncd binary.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml binary.twx binary.ncd -o binary.twr binary.pcf -ucf binary.ucf 
+bitgen -intstyle ise -f binary.ut binary.ncd 
+xst -intstyle ise -ifn "C:/Users/Kirti Karan/Documents/verilog/countFpga/binary.xst" -ofn "C:/Users/Kirti Karan/Documents/verilog/countFpga/binary.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc binary.ucf -p xc3s100e-cp132-4 "binary.ngc" binary.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o binary_map.ncd binary.ngd binary.pcf 
+par -w -intstyle ise -ol high -t 1 binary_map.ncd binary.ncd binary.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml binary.twx binary.ncd -o binary.twr binary.pcf -ucf binary.ucf 
+bitgen -intstyle ise -f binary.ut binary.ncd 
+xst -intstyle ise -ifn "C:/Users/Kirti Karan/Documents/verilog/countFpga/binary.xst" -ofn "C:/Users/Kirti Karan/Documents/verilog/countFpga/binary.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc binary.ucf -p xc3s100e-cp132-4 "binary.ngc" binary.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o binary_map.ncd binary.ngd binary.pcf 
+par -w -intstyle ise -ol high -t 1 binary_map.ncd binary.ncd binary.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml binary.twx binary.ncd -o binary.twr binary.pcf -ucf binary.ucf 
+bitgen -intstyle ise -f binary.ut binary.ncd 
+xst -intstyle ise -ifn "C:/Users/Kirti/Documents/verilog/countFpga/binary.xst" -ofn "C:/Users/Kirti/Documents/verilog/countFpga/binary.syr" 

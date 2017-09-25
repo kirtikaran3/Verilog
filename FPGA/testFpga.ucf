@@ -1,0 +1,11 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "in0" LOC = P11;
+NET "in1" LOC = L3;
+NET "out0" LOC = M5;
+
+# PlanAhead Generated IO constraints 
+
+NET "in0" PULLUP;
+NET "in1" PULLUP;

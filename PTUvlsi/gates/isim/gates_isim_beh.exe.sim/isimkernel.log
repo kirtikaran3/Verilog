@@ -1,0 +1,10 @@
+Command line:
+   gates_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  62484
+
+Thu Mar 17 15:29:07 2016
+
+
+ Elaboration Time: 0.0468 sec

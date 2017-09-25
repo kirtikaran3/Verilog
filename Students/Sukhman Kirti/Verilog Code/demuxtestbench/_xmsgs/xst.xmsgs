@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="817" delta="new" >"C:\.Xilinx\demuxtestbench\demuxtestbench.v" Line 52: System task <arg fmt="%s" index="1">monitor</arg> ignored for synthesis
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"C:\.Xilinx\demuxtestbench\demuxtestbench.v" Line 54: Using initial value of <arg fmt="%s" index="1">c</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"C:\.Xilinx\demuxtestbench\demuxtestbench.v" Line 28: Signal &lt;<arg fmt="%s" index="1">s</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"C:\.Xilinx\demuxtestbench\demuxtestbench.v" Line 30: Signal &lt;<arg fmt="%s" index="1">in</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"C:\.Xilinx\demuxtestbench\demuxtestbench.v" Line 32: Signal &lt;<arg fmt="%s" index="1">s</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"C:\.Xilinx\demuxtestbench\demuxtestbench.v" Line 34: Signal &lt;<arg fmt="%s" index="1">in</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"C:\.Xilinx\demuxtestbench\demuxtestbench.v" Line 36: Signal &lt;<arg fmt="%s" index="1">s</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"C:\.Xilinx\demuxtestbench\demuxtestbench.v" Line 41: Signal &lt;<arg fmt="%s" index="1">in</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\.Xilinx\demuxtestbench\demuxtestbench.v" Line 48: Assignment to <arg fmt="%s" index="1">y0</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\.Xilinx\demuxtestbench\demuxtestbench.v" Line 48: Net &lt;<arg fmt="%s" index="1">in0</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\.Xilinx\demuxtestbench\demuxtestbench.v</arg>&quot; line <arg fmt="%d" index="2">48</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">n1</arg>&gt; of block &lt;<arg fmt="%s" index="4">demux</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">demuxtestbench</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\.Xilinx\demuxtestbench\demuxtestbench.v</arg>&quot; line <arg fmt="%s" index="2">48</arg>: Output port &lt;<arg fmt="%s" index="3">y0</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">n1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\.Xilinx\demuxtestbench\demuxtestbench.v</arg>&quot; line <arg fmt="%s" index="2">48</arg>: Output port &lt;<arg fmt="%s" index="3">y1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">n1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\.Xilinx\demuxtestbench\demuxtestbench.v</arg>&quot; line <arg fmt="%s" index="2">48</arg>: Output port &lt;<arg fmt="%s" index="3">y2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">n1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\.Xilinx\demuxtestbench\demuxtestbench.v</arg>&quot; line <arg fmt="%s" index="2">48</arg>: Output port &lt;<arg fmt="%s" index="3">y3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">n1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">in0</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+</messages>
+

@@ -1,0 +1,10 @@
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/Kirti/Documents/verilog/TestBreak/BreakTest_isim_beh.exe -prj C:/Users/Kirti/Documents/verilog/TestBreak/BreakTest_beh.prj work.BreakTest work.glbl 
+ISim P.28xd (signature 0xa0883be4)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Kirti/Documents/verilog/TestBreak/BreakTest.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+ERROR:HDLCompiler:69 - "C:/Users/Kirti/Documents/verilog/TestBreak/BreakTest.v" Line 38: <break> is not declared.
+ERROR:Simulator:778 - Static elaboration of top level Verilog design unit(s) in library work failed

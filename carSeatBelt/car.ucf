@@ -1,0 +1,4 @@
+NET "seatbelt" LOC=L3; 
+NET "key" LOC=K3;
+NET "clk" LOC=B8; 
+NET "led" LOC=P7;

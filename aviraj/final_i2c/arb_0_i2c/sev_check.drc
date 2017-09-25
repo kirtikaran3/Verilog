@@ -1,0 +1,11 @@
+Release 14.4 Drc P.49d (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Sat Apr 15 10:41:55 2017
+
+drc -z sev_check.ncd sev_check.pcf
+
+WARNING:PhysDesignRules:367 - The signal <RW_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+DRC detected 0 errors and 1 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

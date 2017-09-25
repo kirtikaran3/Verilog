@@ -1,0 +1,6 @@
+verilog work "serialInterface.v"
+verilog work "registerInterface.v"
+verilog work "pll_48MHz.v"
+verilog work "i2cSlave.v"
+verilog work "i2cSlaveTopAltera.v"
+verilog work "C:/Xilinx/14.4/ISE_DS/ISE//verilog/src/glbl.v"

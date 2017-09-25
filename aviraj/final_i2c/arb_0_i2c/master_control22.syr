@@ -1,0 +1,394 @@
+Release 14.4 - xst P.49d (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.27 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.27 secs
+ 
+--> Reading design: master_control22.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "master_control22.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "master_control22"
+Output Format                      : NGC
+Target Device                      : xc3s100e-4-cp132
+
+---- Source Options
+Top Module Name                    : master_control22
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "master_in_dual_fsm.v" in library work
+Module <master_control22> compiled
+No errors in compilation
+Analysis of file <"master_control22.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+WARNING:Xst:2616 - "master_in_dual_fsm.v" line 13: Name conflict. (<rw> and <RW>, renaming rw as rw_rnm0).
+Analyzing hierarchy for module <master_control22> in library <work> with parameters.
+	M1_STATE_ACK = "00000000000000000000000000000100"
+	M1_STATE_ADDR = "00000000000000000000000000000010"
+	M1_STATE_DATA = "00000000000000000000000000000101"
+	M1_STATE_IDLE = "00000000000000000000000000000000"
+	M1_STATE_READ = "00000000000000000000000000001001"
+	M1_STATE_RW = "00000000000000000000000000000011"
+	M1_STATE_START = "00000000000000000000000000000001"
+	M1_STATE_STOP = "00000000000000000000000000000110"
+	M1_STATE_WACK2 = "00000000000000000000000000000111"
+	M1_STATE_WRITE = "00000000000000000000000000001000"
+	STATE_ACK = "00000000000000000000000000000100"
+	STATE_ADDR = "00000000000000000000000000000010"
+	STATE_DATA = "00000000000000000000000000000101"
+	STATE_IDLE = "00000000000000000000000000000000"
+	STATE_READ = "00000000000000000000000000001001"
+	STATE_RW = "00000000000000000000000000000011"
+	STATE_START = "00000000000000000000000000000001"
+	STATE_STOP = "00000000000000000000000000000110"
+	STATE_WACK2 = "00000000000000000000000000000111"
+	STATE_WRITE = "00000000000000000000000000001000"
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <master_control22>.
+WARNING:Xst:863 - "master_in_dual_fsm.v" line 8: Name conflict (<rw> and <RW>, renaming rw as rw_rnm0).
+	M1_STATE_ACK = 32'sb00000000000000000000000000000100
+	M1_STATE_ADDR = 32'sb00000000000000000000000000000010
+	M1_STATE_DATA = 32'sb00000000000000000000000000000101
+	M1_STATE_IDLE = 32'sb00000000000000000000000000000000
+	M1_STATE_READ = 32'sb00000000000000000000000000001001
+	M1_STATE_RW = 32'sb00000000000000000000000000000011
+	M1_STATE_START = 32'sb00000000000000000000000000000001
+	M1_STATE_STOP = 32'sb00000000000000000000000000000110
+	M1_STATE_WACK2 = 32'sb00000000000000000000000000000111
+	M1_STATE_WRITE = 32'sb00000000000000000000000000001000
+	STATE_ACK = 32'sb00000000000000000000000000000100
+	STATE_ADDR = 32'sb00000000000000000000000000000010
+	STATE_DATA = 32'sb00000000000000000000000000000101
+	STATE_IDLE = 32'sb00000000000000000000000000000000
+	STATE_READ = 32'sb00000000000000000000000000001001
+	STATE_RW = 32'sb00000000000000000000000000000011
+	STATE_START = 32'sb00000000000000000000000000000001
+	STATE_STOP = 32'sb00000000000000000000000000000110
+	STATE_WACK2 = 32'sb00000000000000000000000000000111
+	STATE_WRITE = 32'sb00000000000000000000000000001000
+WARNING:Xst:905 - "master_in_dual_fsm.v" line 353: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <reset>, <arb_control>, <A>, <D>, <C>, <E>
+Module <master_control22> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+INFO:Xst:2679 - Register <addr> in unit <master_control22> has a constant value of 0100101 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <m1_addr> in unit <master_control22> has a constant value of 1000111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <data> in unit <master_control22> has a constant value of 00100101 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <m1_data> in unit <master_control22> has a constant value of 01110010 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <rw_rnm0> in unit <master_control22> has a constant value of 0 during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <master_control22>.
+    Related source file is "master_in_dual_fsm.v".
+WARNING:Xst:646 - Signal <slave_data_read> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <save_data> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <save_add> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <m1_slave_data_read> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <m1_save_data> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <m1_save_add> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+INFO:Xst:1799 - State 110 is never reached in FSM <state_lcd>.
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 9                                              |
+    | Transitions        | 15                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 12                                             |
+    | Clock              | clk1                      (rising_edge)        |
+    | Clock enable       | arb_control               (negative)           |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 00000000                                       |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_1> for signal <m1_state>.
+    -----------------------------------------------------------------------
+    | States             | 9                                              |
+    | Transitions        | 15                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 12                                             |
+    | Clock              | clk1                      (rising_edge)        |
+    | Clock enable       | arb_control               (positive)           |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 00000000                                       |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_2> for signal <state_lcd>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 7                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 7                                              |
+    | Clock              | en                        (rising_edge)        |
+    | Clock enable       | reset                     (negative)           |
+    | Power Up State     | 000                                            |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+WARNING:Xst:737 - Found 7-bit latch for signal <cathode>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 8x1-bit ROM for signal <$COND_4>.
+    Found 7x1-bit ROM for signal <$COND_3>.
+    Found 8x1-bit ROM for signal <$COND_2>.
+    Found 7x1-bit ROM for signal <$COND_1>.
+    Found 7-bit register for signal <LED_ADDR>.
+    Found 7-bit register for signal <SEVEN_ADDR>.
+    Found 8-bit register for signal <SEVEN_DATA>.
+    Found 8-bit register for signal <db>.
+    Found 1-bit register for signal <en>.
+    Found 1-bit register for signal <i2c_sda>.
+    Found 1-bit register for signal <m1_i2c_sda>.
+    Found 1-bit register for signal <rs>.
+    Found 7-bit register for signal <A>.
+    Found 2-bit up counter for signal <ab>.
+    Found 2-bit comparator less for signal <ab$cmp_lt0000> created at line 347.
+    Found 7-bit register for signal <C>.
+    Found 1-bit register for signal <clk1>.
+    Found 9-bit up counter for signal <clk_count>.
+    Found 9-bit comparator less for signal <clk_count$cmp_lt0000> created at line 124.
+    Found 1-bit register for signal <clk_div>.
+    Found 8-bit register for signal <count>.
+    Found 8-bit subtractor for signal <count$addsub0000>.
+    Found 10-bit up counter for signal <count1>.
+    Found 10-bit comparator less for signal <count1$cmp_lt0000> created at line 339.
+    Found 24-bit up counter for signal <count3>.
+    Found 8-bit register for signal <D>.
+    Found 8-bit register for signal <E>.
+    Found 1-bit register for signal <i2c_scl_enable>.
+    Found 8-bit register for signal <m1_count>.
+    Found 8-bit subtractor for signal <m1_count$addsub0000>.
+    Found 1-bit register for signal <m1_i2c_scl_enable>.
+    Found 7-bit register for signal <m1_sev_seg_add>.
+    Found 8-bit register for signal <m1_sev_seg_data>.
+    Found 7-bit register for signal <sev_seg_add>.
+    Found 8-bit register for signal <sev_seg_data>.
+    Found 3-bit up counter for signal <w>.
+    Summary:
+	inferred   3 Finite State Machine(s).
+	inferred   4 ROM(s).
+	inferred   5 Counter(s).
+	inferred 114 D-type flip-flop(s).
+	inferred   3 Adder/Subtractor(s).
+	inferred   3 Comparator(s).
+Unit <master_control22> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 4
+ 7x1-bit ROM                                           : 2
+ 8x1-bit ROM                                           : 2
+# Adders/Subtractors                                   : 3
+ 3-bit adder                                           : 1
+ 8-bit subtractor                                      : 2
+# Counters                                             : 5
+ 10-bit up counter                                     : 1
+ 2-bit up counter                                      : 1
+ 24-bit up counter                                     : 1
+ 3-bit up counter                                      : 1
+ 9-bit up counter                                      : 1
+# Registers                                            : 48
+ 1-bit register                                        : 38
+ 7-bit register                                        : 4
+ 8-bit register                                        : 6
+# Latches                                              : 1
+ 7-bit latch                                           : 1
+# Comparators                                          : 3
+ 10-bit comparator less                                : 1
+ 2-bit comparator less                                 : 1
+ 9-bit comparator less                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_2> for best encoding.
+Optimizing FSM <state_lcd/FSM> on signal <state_lcd[1:6]> with one-hot encoding.
+-------------------
+ State | Encoding
+-------------------
+ 000   | 000001
+ 001   | 000010
+ 010   | 000100
+ 011   | 001000
+ 100   | 010000
+ 101   | 100000
+ 110   | unreached
+-------------------
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <m1_state/FSM> on signal <m1_state[1:9]> with one-hot encoding.
+-----------------------
+ State    | Encoding
+-----------------------
+ 00000000 | 000000001
+ 00000001 | 000000010
+ 00000010 | 000000100
+ 00000011 | 000001000
+ 00000100 | 000010000
+ 00001001 | 000100000
+ 00001000 | 001000000
+ 00000111 | 010000000
+ 00000110 | 100000000
+-----------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <state/FSM> on signal <state[1:9]> with one-hot encoding.
+-----------------------
+ State    | Encoding
+-----------------------
+ 00000000 | 000000001
+ 00000001 | 000000010
+ 00000010 | 000000100
+ 00000011 | 000001000
+ 00000100 | 000010000
+ 00001001 | 000100000
+ 00001000 | 001000000
+ 00000111 | 010000000
+ 00000110 | 100000000
+-----------------------
+
+Synthesizing (advanced) Unit <master_control22>.
+INFO:Xst:3021 - HDL ADVISOR - Asynchronous or synchronous initialization of the register <m1_count> prevents it from being combined with the ROM <Mrom__COND_4> for implementation as read-only block RAM.
+INFO:Xst:3021 - HDL ADVISOR - Asynchronous or synchronous initialization of the register <m1_count> prevents it from being combined with the ROM <Mrom__COND_3> for implementation as read-only block RAM.
+INFO:Xst:3021 - HDL ADVISOR - Asynchronous or synchronous initialization of the register <count> prevents it from being combined with the ROM <Mrom__COND_2> for implementation as read-only block RAM.
+INFO:Xst:3021 - HDL ADVISOR - Asynchronous or synchronous initialization of the register <count> prevents it from being combined with the ROM <Mrom__COND_1> for implementation as read-only block RAM.
+Unit <master_control22> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 3
+# ROMs                                                 : 4
+ 7x1-bit ROM                                           : 2
+ 8x1-bit ROM                                           : 2
+# Adders/Subtractors                                   : 3
+ 3-bit adder                                           : 1
+ 8-bit subtractor                                      : 2
+# Counters                                             : 5
+ 10-bit up counter                                     : 1
+ 2-bit up counter                                      : 1
+ 24-bit up counter                                     : 1
+ 3-bit up counter                                      : 1
+ 9-bit up counter                                      : 1
+# Registers                                            : 114
+ Flip-Flops                                            : 114
+# Latches                                              : 1
+ 7-bit latch                                           : 1
+# Comparators                                          : 3
+ 10-bit comparator less                                : 1
+ 2-bit comparator less                                 : 1
+ 9-bit comparator less                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <db_7> (without init value) has a constant value of 0 in block <master_control22>. This FF/Latch will be trimmed during the optimization process.
+INTERNAL_ERROR:Xst:cmain.c:3464:1.56 -  Process will terminate. For technical support on this issue, please open a WebCase with this project attached at http://www.xilinx.com/support.  

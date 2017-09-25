@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/.Xilinx/nor_gate/nor_gate_isim_beh.exe" -prj "C:/.Xilinx/nor_gate/nor_gate_beh.prj" "work.nor_gate" "work.glbl" 

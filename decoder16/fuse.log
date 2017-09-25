@@ -1,0 +1,15 @@
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/kirti/Documents/verilog/decoder16/decoder16_isim_beh.exe -prj C:/Users/kirti/Documents/verilog/decoder16/decoder16_beh.prj work.decoder16 work.glbl 
+ISim P.28xd (signature 0xa0883be4)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/kirti/Documents/verilog/decoder16/decoder16.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module decoder16
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+ERROR:Simulator:904 - Unable to remove previous simulation file isim/decoder16_isim_beh.exe.sim/decoder16_isim_beh.exe. Please check if you have another instance of this simulation running on your system, terminate it and then recompile your design. System Error Message: boost::filesystem::remove: Access is denied: "isim\decoder16_isim_beh.exe.sim\decoder16_isim_beh.exe"
+ERROR:Simulator:861 - Failed to link the design

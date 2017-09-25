@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/kirti/Documents/verilog/MyTestingGround/udp_body/udp_body_tb.xst" -ofn "C:/Users/kirti/Documents/verilog/MyTestingGround/udp_body/udp_body_tb.syr" 

@@ -1,0 +1,41 @@
+ISim log file
+Running: C:\.Xilinx\mux_8\mux_8_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/.Xilinx/mux_8/mux_8_isim_beh.wdb 
+ISim P.28xd (signature 0xa0883be4)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /mux_8/in 11111111 -radix bin
+# isim force add /mux_8/in 11111111 -radix bin
+# isim force add /mux_8/s 011 -radix bin
+# isim force add /mux_8/s 011 -radix bin
+# run 1.00us
+# isim force add /mux_8/s2 0 -radix bin
+# isim force add /mux_8/s2 0 -radix bin
+# isim force add /mux_8/s1 1 -radix bin
+# isim force add /mux_8/s1 1 -radix bin
+# isim force add /mux_8/s0 1 -radix bin
+# isim force add /mux_8/s0 1 -radix bin
+# run 1.00us
+# isim force add /mux_8/in1 1 -radix bin
+# isim force add /mux_8/in0 1 -radix bin
+# isim force add /mux_8/in2 1 -radix bin
+# isim force add /mux_8/in2 1 -radix bin
+# isim force add /mux_8/in2 1 -radix bin
+# isim force add /mux_8/in3 1 -radix bin
+# isim force add /mux_8/in3 1 -radix bin
+# isim force add /mux_8/in3 1 -radix bin
+# isim force add /mux_8/in3 1 -radix bin
+# isim force add /mux_8/in4 1 -radix bin
+# isim force add /mux_8/in4 1 -radix bin
+# isim force add /mux_8/in5 1 -radix bin
+# isim force add /mux_8/in5 1 -radix bin
+# isim force add /mux_8/in6 1 -radix bin
+# isim force add /mux_8/in6 1 -radix bin
+# isim force add /mux_8/in7 1 -radix bin
+# isim force add /mux_8/in7 1 -radix bin
+# run 1.00us
+# run 1.00us

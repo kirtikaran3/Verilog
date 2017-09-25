@@ -1,0 +1,35 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.2
+//  \   \         Application : sch2hdl
+//  /   /         Filename : dffTest.vf
+// /___/   /\     Timestamp : 03/09/2017 12:41:48
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog C:/Users/Kirti/Documents/verilog/schTest/dffTest.vf -w C:/Users/Kirti/Documents/verilog/schTest/dffTest.sch
+//Design Name: dffTest
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module dffTest(clk, 
+               D, 
+               led);
+
+    input clk;
+    input D;
+   output led;
+   
+   
+   FD_1 #( .INIT(1'b0) ) XLXI_1 (.C(clk), 
+                .D(D), 
+                .Q(led));
+endmodule

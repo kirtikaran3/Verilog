@@ -1,0 +1,28 @@
+Command line:
+   mux_using_dataflow_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49197
+
+Sat Mar 19 16:07:28 2016
+
+
+ Elaboration Time: 0.031201 sec
+
+ Current Memory Usage: 504.902 Meg
+
+ Total Signals          : 37
+ Total Nets             : 47
+ Total Signal Drivers   : 17
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 18
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 127
+
+ Total Simulation Time: 0.124801 sec
+
+ Current Memory Usage: 504.902 Meg
+
+Sat Mar 19 16:09:23 2016
+

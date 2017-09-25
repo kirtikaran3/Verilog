@@ -1,0 +1,23 @@
+xst -intstyle ise -ifn "F:/i2c_rtc/i2c_rtc_net/i2c_test.xst" -ofn "F:/i2c_rtc/i2c_rtc_net/i2c_test.syr" 
+xst -intstyle ise -ifn "F:/i2c_rtc/i2c_rtc_net/i2c_test.xst" -ofn "F:/i2c_rtc/i2c_rtc_net/i2c_test.syr" 
+xst -intstyle ise -ifn "F:/i2c_rtc/i2c_rtc_net/i2c_test.xst" -ofn "F:/i2c_rtc/i2c_rtc_net/i2c_test.syr" 
+xst -intstyle ise -ifn "F:/i2c_rtc/i2c_rtc_net/i2c_test.xst" -ofn "F:/i2c_rtc/i2c_rtc_net/i2c_test.syr" 
+xst -intstyle ise -ifn "F:/i2c_rtc/i2c_rtc_net/i2c_test.xst" -ofn "F:/i2c_rtc/i2c_rtc_net/i2c_test.syr" 
+xst -intstyle ise -ifn "F:/i2c_rtc/i2c_rtc_net/i2c_test.xst" -ofn "F:/i2c_rtc/i2c_rtc_net/i2c_test.syr" 
+xst -intstyle ise -ifn "F:/i2c_rtc/i2c_rtc_net/i2c_test.xst" -ofn "F:/i2c_rtc/i2c_rtc_net/i2c_test.syr" 
+xst -intstyle ise -ifn "F:/i2c_rtc/i2c_rtc_net/i2c_test.xst" -ofn "F:/i2c_rtc/i2c_rtc_net/i2c_test.syr" 
+xst -intstyle ise -ifn "F:/i2c_rtc/i2c_rtc_net/i2c_test.xst" -ofn "F:/i2c_rtc/i2c_rtc_net/i2c_test.syr" 
+xst -intstyle ise -ifn "F:/i2c_rtc/i2c_rtc_net/i2c_test.xst" -ofn "F:/i2c_rtc/i2c_rtc_net/i2c_test.syr" 
+xst -intstyle ise -ifn "F:/i2c_rtc/i2c_rtc_net/i2c_test.xst" -ofn "F:/i2c_rtc/i2c_rtc_net/i2c_test.syr" 
+xst -intstyle ise -ifn "F:/i2c_rtc/i2c_rtc_net/i2c_test.xst" -ofn "F:/i2c_rtc/i2c_rtc_net/i2c_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 i2c_test.ngc i2c_test.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o i2c_test_map.ncd i2c_test.ngd i2c_test.pcf 
+par -w -intstyle ise -ol high -mt off i2c_test_map.ncd i2c_test.ncd i2c_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml i2c_test.twx i2c_test.ncd -o i2c_test.twr i2c_test.pcf 
+bitgen -intstyle ise -f i2c_test.ut i2c_test.ncd 
+xst -intstyle ise -ifn "F:/i2c_rtc/i2c_rtc_net/i2c_test.xst" -ofn "F:/i2c_rtc/i2c_rtc_net/i2c_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i2c_test.ucf -p xc3s100e-cp132-5 i2c_test.ngc i2c_test.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o i2c_test_map.ncd i2c_test.ngd i2c_test.pcf 
+par -w -intstyle ise -ol high -t 1 i2c_test_map.ncd i2c_test.ncd i2c_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml i2c_test.twx i2c_test.ncd -o i2c_test.twr i2c_test.pcf -ucf i2c_test.ucf 
+bitgen -intstyle ise -f i2c_test.ut i2c_test.ncd 

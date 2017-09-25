@@ -1,0 +1,21 @@
+# Pin assignment for pushbutton switches
+NET "reset" LOC = "a7"; 
+
+
+# Pin assignment for 7-segment displays
+NET "a" LOC = "l14" ;
+NET "b" LOC = "h12" ;
+NET "c" LOC = "n14" ;
+NET "d" LOC = "n11" ;
+NET "e" LOC = "p12" ;
+NET "f" LOC = "l13" ;
+NET "g" LOC = "m12" ;
+NET "dp" LOC = "n13" ;
+
+NET "an<3>" LOC = "k14"; 
+NET "an<2>" LOC = "m13"; 
+NET "an<1>" LOC = "j12"; 
+NET "an<0>" LOC = "f12"; 
+
+# Pin assignment for clock
+NET "clock" LOC = "b8"; 

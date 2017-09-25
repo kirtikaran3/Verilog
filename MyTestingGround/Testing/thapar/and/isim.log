@@ -1,0 +1,13 @@
+ISim log file
+Running: C:\Users\Kirti\Documents\verilog\thapar\and\testand_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Kirti/Documents/verilog/thapar/and/testand_isim_beh.wdb 
+ISim P.28xd (signature 0xa0883be4)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                 105 input signal 1:  1 in sig 2: 0in sig 3 0in sig 4 0out  0
+                 110 input signal 1:  0 in sig 2: 0in sig 3 1in sig 4 1out  0
+Stopped at time : 225 ns : File "C:/Users/Kirti/Documents/verilog/thapar/and/testand.v" Line 64

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/Kirti/Documents/verilog/schTest/dffTest_isim_beh.exe" -prj "C:/Users/Kirti/Documents/verilog/schTest/dffTest_beh.prj" "work.dffTest" "work.glbl" 

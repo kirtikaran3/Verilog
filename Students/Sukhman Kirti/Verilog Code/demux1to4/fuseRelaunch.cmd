@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/.Xilinx/demux1to4/demux1to4_isim_beh.exe" -prj "C:/.Xilinx/demux1to4/demux1to4_beh.prj" "work.demux1to4" "work.glbl" 

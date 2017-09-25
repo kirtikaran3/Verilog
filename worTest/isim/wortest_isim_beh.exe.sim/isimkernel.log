@@ -1,0 +1,28 @@
+Command line:
+   wortest_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49931
+
+Sun Oct 23 11:08:23 2016
+
+
+ Elaboration Time: 0.124801 sec
+
+ Current Memory Usage: 508.981 Meg
+
+ Total Signals          : 18
+ Total Nets             : 18
+ Total Signal Drivers   : 8
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 9
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 98
+
+ Total Simulation Time: 0.140401 sec
+
+ Current Memory Usage: 508.981 Meg
+
+Sun Oct 23 11:08:46 2016
+

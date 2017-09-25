@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/.Xilinx/xor_gate/xor_gate_isim_beh.exe" -prj "C:/.Xilinx/xor_gate/xor_gate_beh.prj" "work.xor_gate" "work.glbl" 

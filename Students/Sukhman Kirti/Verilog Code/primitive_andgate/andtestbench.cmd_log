@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Kirti/Documents/verilog/Students/Sukhman Kirti/Verilog Code/primitive_andgate/andtestbench.xst" -ofn "C:/Users/Kirti/Documents/verilog/Students/Sukhman Kirti/Verilog Code/primitive_andgate/andtestbench.syr" 

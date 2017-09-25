@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "E:/final_i2c/final_i2c/master11_tb_isim_beh.exe" -prj "E:/final_i2c/final_i2c/master11_tb_beh.prj" "work.master11_tb" "work.glbl" 

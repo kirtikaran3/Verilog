@@ -1,0 +1,13 @@
+ISim log file
+Running: C:\.Xilinx\decoder\decoder_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/.Xilinx/decoder/decoder_isim_beh.wdb 
+ISim P.28xd (signature 0xa0883be4)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /decoder/a 0 -radix bin
+# isim force add /decoder/b 0 -radix bin
+# run 1.00us

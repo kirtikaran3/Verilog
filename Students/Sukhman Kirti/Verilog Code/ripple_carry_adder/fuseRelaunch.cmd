@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/.Xilinx/ripple_carry_adder/ripple_carry_adder_isim_beh.exe" -prj "C:/.Xilinx/ripple_carry_adder/ripple_carry_adder_beh.prj" "work.ripple_carry_adder" "work.glbl" 

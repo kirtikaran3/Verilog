@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="817" delta="new" >"C:\.Xilinx\primitive_orgate\orgate_file.v" Line 28: System task <arg fmt="%s" index="1">monitor</arg> ignored for synthesis
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"C:\.Xilinx\primitive_orgate\orgate_file.v" Line 30: Using initial value of <arg fmt="%s" index="1">a</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="817" delta="new" >"C:\.Xilinx\primitive_orgate\orgate_file.v" Line 38: System task <arg fmt="%s" index="1">stop</arg> ignored for synthesis
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\.Xilinx\primitive_orgate\orgate_file.v" Line 25: Assignment to <arg fmt="%s" index="1">out</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\.Xilinx\primitive_orgate\orgate_file.v</arg>&quot; line <arg fmt="%d" index="2">25</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">n</arg>&gt; of block &lt;<arg fmt="%s" index="4">primitive_orgate</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">ortestbench</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\.Xilinx\primitive_orgate\orgate_file.v</arg>&quot; line <arg fmt="%s" index="2">25</arg>: Output port &lt;<arg fmt="%s" index="3">out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">n</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+</messages>
+

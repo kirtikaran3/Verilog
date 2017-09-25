@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/.Xilinx/mux_8/mux_8.xst" -ofn "C:/.Xilinx/mux_8/mux_8.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/mux_8/mux_8.xst" -ofn "C:/.Xilinx/mux_8/mux_8.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/mux_8/mux_8.xst" -ofn "C:/.Xilinx/mux_8/mux_8.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/mux_8/mux_8.xst" -ofn "C:/.Xilinx/mux_8/mux_8.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/mux_8/mux_8.xst" -ofn "C:/.Xilinx/mux_8/mux_8.syr" 

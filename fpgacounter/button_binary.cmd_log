@@ -1,0 +1,40 @@
+xst -intstyle ise -ifn "C:/Users/Kirti Karan/Documents/verilog/fpgacounter/button_binary.xst" -ofn "C:/Users/Kirti Karan/Documents/verilog/fpgacounter/button_binary.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I "button_binary.ngc" button_binary.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o button_binary_map.ncd button_binary.ngd button_binary.pcf 
+par -w -intstyle ise -ol high -mt off button_binary_map.ncd button_binary.ncd button_binary.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml button_binary.twx button_binary.ncd -o button_binary.twr button_binary.pcf 
+bitgen -intstyle ise -f button_binary.ut button_binary.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc buton_binary.ucf -p xa7a100t-csg324-2I "button_binary.ngc" button_binary.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o button_binary_map.ncd button_binary.ngd button_binary.pcf 
+xst -intstyle ise -ifn "C:/Users/Kirti Karan/Documents/verilog/fpgacounter/button_binary.xst" -ofn "C:/Users/Kirti Karan/Documents/verilog/fpgacounter/button_binary.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc buton_binary.ucf -p xa7a100t-csg324-2I "button_binary.ngc" button_binary.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o button_binary_map.ncd button_binary.ngd button_binary.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc buton_binary.ucf -p xa7a100t-csg324-2I "button_binary.ngc" button_binary.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o button_binary_map.ncd button_binary.ngd button_binary.pcf 
+xst -intstyle ise -ifn "C:/Users/Kirti Karan/Documents/verilog/fpgacounter/button_binary.xst" -ofn "C:/Users/Kirti Karan/Documents/verilog/fpgacounter/button_binary.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc buton_binary.ucf -p xa7a100t-csg324-2I "button_binary.ngc" button_binary.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o button_binary_map.ncd button_binary.ngd button_binary.pcf 
+xst -intstyle ise -ifn "C:/Users/Kirti Karan/Documents/verilog/fpgacounter/button_binary.xst" -ofn "C:/Users/Kirti Karan/Documents/verilog/fpgacounter/button_binary.syr" 
+xst -intstyle ise -ifn "C:/Users/Kirti Karan/Documents/verilog/fpgacounter/button_binary.xst" -ofn "C:/Users/Kirti Karan/Documents/verilog/fpgacounter/button_binary.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc buton_binary.ucf -p xa7a100t-csg324-2I "button_binary.ngc" button_binary.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o button_binary_map.ncd button_binary.ngd button_binary.pcf 
+xst -intstyle ise -ifn "C:/Users/Kirti Karan/Documents/verilog/fpgacounter/button_binary.xst" -ofn "C:/Users/Kirti Karan/Documents/verilog/fpgacounter/button_binary.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I "button_binary.ngc" button_binary.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o button_binary_map.ncd button_binary.ngd button_binary.pcf 
+par -w -intstyle ise -ol high -mt off button_binary_map.ncd button_binary.ncd button_binary.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml button_binary.twx button_binary.ncd -o button_binary.twr button_binary.pcf 
+bitgen -intstyle ise -f button_binary.ut button_binary.ncd 
+xst -intstyle ise -ifn "C:/Users/Kirti Karan/Documents/verilog/fpgacounter/button_binary.xst" -ofn "C:/Users/Kirti Karan/Documents/verilog/fpgacounter/button_binary.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc button_binary.ucf -p xa7a100t-csg324-2I "button_binary.ngc" button_binary.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o button_binary_map.ncd button_binary.ngd button_binary.pcf 
+xst -intstyle ise -ifn "C:/Users/Kirti/Documents/verilog/fpgacounter/button_binary.xst" -ofn "C:/Users/Kirti/Documents/verilog/fpgacounter/button_binary.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc button_binary.ucf -p xa7a100t-csg324-2I button_binary.ngc button_binary.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o button_binary_map.ncd button_binary.ngd button_binary.pcf 
+xst -intstyle ise -ifn "C:/Users/Kirti/Documents/verilog/fpgacounter/button_binary.xst" -ofn "C:/Users/Kirti/Documents/verilog/fpgacounter/button_binary.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc button_binary.ucf -p xa7a100t-csg324-2I button_binary.ngc button_binary.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o button_binary_map.ncd button_binary.ngd button_binary.pcf 
+xst -intstyle ise -ifn "C:/Users/Kirti/Documents/verilog/fpgacounter/button_binary.xst" -ofn "C:/Users/Kirti/Documents/verilog/fpgacounter/button_binary.syr" 
+xst -intstyle ise -ifn "C:/Users/Kirti/Documents/verilog/fpgacounter/button_binary.xst" -ofn "C:/Users/Kirti/Documents/verilog/fpgacounter/button_binary.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc button_binary.ucf -p xa7a100t-csg324-2I button_binary.ngc button_binary.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o button_binary_map.ncd button_binary.ngd button_binary.pcf 
+xst -intstyle ise -ifn "C:/Users/Kirti/Documents/verilog/fpgacounter/button_binary.xst" -ofn "C:/Users/Kirti/Documents/verilog/fpgacounter/button_binary.syr" 

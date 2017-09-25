@@ -1,0 +1,542 @@
+Release 14.4 - xst P.49d (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Reading design: i2c_test.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "i2c_test.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "i2c_test"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-cp132
+
+---- Source Options
+Top Module Name                    : i2c_test
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "i2c_rtc.v" in library work
+Module <i2c_test> compiled
+WARNING:HDLCompilers:258 - "i2c_rtc.v" line 27 Range on redeclaration of 'sd_counter' overrides range on output declaration at "i2c_rtc.v" line 20 
+No errors in compilation
+Analysis of file <"i2c_test.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <i2c_test> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <i2c_test>.
+WARNING:Xst:2725 - "i2c_rtc.v" line 72: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 76: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 78: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 80: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 81: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 82: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 83: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 84: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 85: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 86: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 87: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 88: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 92: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 93: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 94: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 95: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 96: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 97: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 98: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 99: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 100: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 103: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 104: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 105: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 106: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 107: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 108: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 109: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 110: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 111: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 115: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 116: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 117: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 118: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 119: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 120: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 121: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 122: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 123: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 126: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 127: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 128: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 129: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 130: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 131: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 132: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 133: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 134: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 138: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "i2c_rtc.v" line 139: Size mismatch between case item and case selector.
+Module <i2c_test> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <i2c_test>.
+    Related source file is "i2c_rtc.v".
+WARNING:Xst:646 - Signal <sda_save<9>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <sda_save<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 16x7-bit ROM for signal <cathode$mux0001>.
+    Found 16x7-bit ROM for signal <cathode$mux0002>.
+    Found 16x7-bit ROM for signal <cathode$mux0003>.
+    Found 16x7-bit ROM for signal <cathode$mux0004>.
+    Found 4-bit register for signal <anode>.
+    Found 7-bit register for signal <cathode>.
+    Found 10-bit up counter for signal <count>.
+    Found 9-bit up counter for signal <sd_counter>.
+    Found 2-bit up counter for signal <ab>.
+    Found 1-of-4 decoder for signal <anode$mux0000> created at line 163.
+    Found 7-bit 4-to-1 multiplexer for signal <cathode$mux0000> created at line 163.
+    Found 1-bit register for signal <go>.
+    Found 1-bit register for signal <Mtridata_sdi>.
+    Found 1-bit register for signal <Mtrien_sdi>.
+    Found 9-bit comparator greatequal for signal <scl$cmp_ge0000> created at line 145.
+    Found 9-bit comparator lessequal for signal <scl$cmp_le0000> created at line 145.
+    Found 1-bit register for signal <sclk>.
+    Found 9-bit comparator less for signal <sd_counter$cmp_lt0000> created at line 57.
+    Found 8-bit register for signal <sda_save<17:10>>.
+    Found 8-bit register for signal <sda_save<8:1>>.
+    Found 1-bit tristate buffer for signal <sdi>.
+    Summary:
+	inferred   4 ROM(s).
+	inferred   3 Counter(s).
+	inferred  31 D-type flip-flop(s).
+	inferred   3 Comparator(s).
+	inferred   7 Multiplexer(s).
+	inferred   1 Decoder(s).
+	inferred   1 Tristate(s).
+Unit <i2c_test> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 4
+ 16x7-bit ROM                                          : 4
+# Counters                                             : 3
+ 10-bit up counter                                     : 1
+ 2-bit up counter                                      : 1
+ 9-bit up counter                                      : 1
+# Registers                                            : 22
+ 1-bit register                                        : 20
+ 4-bit register                                        : 1
+ 7-bit register                                        : 1
+# Comparators                                          : 3
+ 9-bit comparator greatequal                           : 1
+ 9-bit comparator less                                 : 1
+ 9-bit comparator lessequal                            : 1
+# Multiplexers                                         : 1
+ 7-bit 4-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+# Tristates                                            : 1
+ 1-bit tristate buffer                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 4
+ 16x7-bit ROM                                          : 4
+# Counters                                             : 3
+ 10-bit up counter                                     : 1
+ 2-bit up counter                                      : 1
+ 9-bit up counter                                      : 1
+# Registers                                            : 31
+ Flip-Flops                                            : 31
+# Comparators                                          : 3
+ 9-bit comparator greatequal                           : 1
+ 9-bit comparator less                                 : 1
+ 9-bit comparator lessequal                            : 1
+# Multiplexers                                         : 1
+ 7-bit 4-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <i2c_test> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block i2c_test, actual ratio is 6.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 52
+ Flip-Flops                                            : 52
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : i2c_test.ngr
+Top Level Output File Name         : i2c_test
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 35
+
+Cell Usage :
+# BELS                             : 172
+#      GND                         : 1
+#      INV                         : 4
+#      LUT1                        : 9
+#      LUT2                        : 15
+#      LUT2_D                      : 3
+#      LUT2_L                      : 2
+#      LUT3                        : 17
+#      LUT3_D                      : 4
+#      LUT3_L                      : 3
+#      LUT4                        : 60
+#      LUT4_D                      : 4
+#      LUT4_L                      : 6
+#      MUXCY                       : 17
+#      MUXF5                       : 7
+#      VCC                         : 1
+#      XORCY                       : 19
+# FlipFlops/Latches                : 52
+#      FD                          : 10
+#      FDC                         : 2
+#      FDCE                        : 11
+#      FDE                         : 23
+#      FDP                         : 5
+#      FDPE                        : 1
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 34
+#      IBUF                        : 2
+#      IOBUF                       : 1
+#      OBUF                        : 31
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-5 
+
+ Number of Slices:                       65  out of    960     6%  
+ Number of Slice Flip Flops:             52  out of   1920     2%  
+ Number of 4 input LUTs:                127  out of   1920     6%  
+ Number of IOs:                          35
+ Number of bonded IOBs:                  35  out of     83    42%  
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+count_91                           | BUFG                   | 42    |
+clock_50                           | BUFGP                  | 10    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+key<0>_inv(key<0>_inv1_INV_0:O)    | NONE(Mtridata_sdi)     | 19    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 5.053ns (Maximum Frequency: 197.910MHz)
+   Minimum input arrival time before clock: 4.954ns
+   Maximum output required time after clock: 7.792ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'count_91'
+  Clock period: 5.053ns (frequency: 197.910MHz)
+  Total number of paths / destination ports: 569 / 52
+-------------------------------------------------------------------------
+Delay:               5.053ns (Levels of Logic = 3)
+  Source:            sd_counter_3 (FF)
+  Destination:       sd_counter_0 (FF)
+  Source Clock:      count_91 rising
+  Destination Clock: count_91 rising
+
+  Data Path: sd_counter_3 to sd_counter_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            18   0.514   1.060  sd_counter_3 (sd_counter_3)
+     LUT4:I0->O            1   0.612   0.360  sd_counter_not0001_SW0_SW0 (N52)
+     LUT4_L:I3->LO         1   0.612   0.103  sd_counter_not0001_SW0 (N14)
+     LUT4:I3->O            9   0.612   0.697  sd_counter_not0001 (sd_counter_not0001)
+     FDCE:CE                   0.483          sd_counter_0
+    ----------------------------------------
+    Total                      5.053ns (2.833ns logic, 2.220ns route)
+                                       (56.1% logic, 43.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock_50'
+  Clock period: 3.389ns (frequency: 295.033MHz)
+  Total number of paths / destination ports: 55 / 10
+-------------------------------------------------------------------------
+Delay:               3.389ns (Levels of Logic = 10)
+  Source:            count_1 (FF)
+  Destination:       count_9 (FF)
+  Source Clock:      clock_50 rising
+  Destination Clock: clock_50 rising
+
+  Data Path: count_1 to count_9
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.514   0.532  count_1 (count_1)
+     LUT1:I0->O            1   0.612   0.000  Mcount_count_cy<1>_rt (Mcount_count_cy<1>_rt)
+     MUXCY:S->O            1   0.404   0.000  Mcount_count_cy<1> (Mcount_count_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_count_cy<2> (Mcount_count_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_count_cy<3> (Mcount_count_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_count_cy<4> (Mcount_count_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_count_cy<5> (Mcount_count_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_count_cy<6> (Mcount_count_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_count_cy<7> (Mcount_count_cy<7>)
+     MUXCY:CI->O           0   0.051   0.000  Mcount_count_cy<8> (Mcount_count_cy<8>)
+     XORCY:CI->O           1   0.699   0.000  Mcount_count_xor<9> (Result<9>)
+     FD:D                      0.268          count_9
+    ----------------------------------------
+    Total                      3.389ns (2.858ns logic, 0.532ns route)
+                                       (84.3% logic, 15.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'count_91'
+  Total number of paths / destination ports: 40 / 40
+-------------------------------------------------------------------------
+Offset:              4.954ns (Levels of Logic = 3)
+  Source:            key<0> (PAD)
+  Destination:       sda_save_15 (FF)
+  Destination Clock: count_91 rising
+
+  Data Path: key<0> to sda_save_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            11   1.106   0.945  key_0_IBUF (key_0_IBUF)
+     LUT3_D:I0->O         13   0.612   0.839  sda_save_10_and00001_SW0 (N9)
+     LUT4:I3->O            1   0.612   0.357  sda_save_7_and00001 (sda_save_7_and0000)
+     FDE:CE                    0.483          sda_save_7
+    ----------------------------------------
+    Total                      4.954ns (2.813ns logic, 2.141ns route)
+                                       (56.8% logic, 43.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'count_91'
+  Total number of paths / destination ports: 37 / 22
+-------------------------------------------------------------------------
+Offset:              7.792ns (Levels of Logic = 4)
+  Source:            sd_counter_5 (FF)
+  Destination:       scl (PAD)
+  Source Clock:      count_91 rising
+
+  Data Path: sd_counter_5 to scl
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            13   0.514   0.866  sd_counter_5 (sd_counter_5)
+     LUT3_D:I2->O          5   0.612   0.541  Mtrien_sdi_mux000011 (N4)
+     LUT4:I3->O            1   0.612   0.509  scl_cmp_le000011 (scl_cmp_le0000)
+     LUT4:I0->O            1   0.612   0.357  scl1 (scl_OBUF)
+     OBUF:I->O                 3.169          scl_OBUF (scl)
+    ----------------------------------------
+    Total                      7.792ns (5.519ns logic, 2.273ns route)
+                                       (70.8% logic, 29.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock_50'
+  Total number of paths / destination ports: 11 / 11
+-------------------------------------------------------------------------
+Offset:              5.154ns (Levels of Logic = 2)
+  Source:            count_9 (FF)
+  Destination:       scl (PAD)
+  Source Clock:      clock_50 rising
+
+  Data Path: count_9 to scl
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               4   0.514   0.502  count_9 (count_91)
+     LUT4:I3->O            1   0.612   0.357  scl1 (scl_OBUF)
+     OBUF:I->O                 3.169          scl_OBUF (scl)
+    ----------------------------------------
+    Total                      5.154ns (4.295ns logic, 0.859ns route)
+                                       (83.3% logic, 16.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 9.70 secs
+ 
+--> 
+
+Total memory usage is 244924 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   54 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/.Xilinx/decoder_case/decoder_case.xst" -ofn "C:/.Xilinx/decoder_case/decoder_case.syr" 

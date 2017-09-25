@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/.Xilinx/pattern_detector0110/pattern_detector0110.xst" -ofn "C:/.Xilinx/pattern_detector0110/pattern_detector0110.syr" 

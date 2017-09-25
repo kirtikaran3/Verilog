@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/.Xilinx/demux_function/demux_function.xst" -ofn "C:/.Xilinx/demux_function/demux_function.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/demux_function/demux_function.xst" -ofn "C:/.Xilinx/demux_function/demux_function.syr" 

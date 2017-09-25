@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/kirti/Documents/verilog/MyTestingGround/test5/test_ha_isim_beh.exe" -prj "C:/Users/kirti/Documents/verilog/MyTestingGround/test5/test_ha_beh.prj" "work.test_ha" "work.glbl" 

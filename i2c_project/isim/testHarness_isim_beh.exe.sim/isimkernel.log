@@ -1,0 +1,29 @@
+Command line:
+   testHarness_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56617
+
+Wed Apr 05 09:53:13 2017
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 840.475 Meg
+
+ Total Signals          : 137
+ Total Nets             : 220
+ Total Signal Drivers   : 84
+ Total Blocks           : 13
+ Total Primitive Blocks : 6
+ Total Processes        : 115
+ Total Traceable Variables  : 136
+ Total Scalar Nets and Variables : 1153
+Total Line Count : 709
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 1155.05 Meg
+
+Wed Apr 05 09:53:45 2017
+

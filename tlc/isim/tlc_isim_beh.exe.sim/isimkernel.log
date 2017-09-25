@@ -1,0 +1,28 @@
+Command line:
+   tlc_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51758
+
+Tue Apr 19 04:26:06 2016
+
+
+ Elaboration Time: 0.0468 sec
+
+ Current Memory Usage: 509.235 Meg
+
+ Total Signals          : 14
+ Total Nets             : 17
+ Total Signal Drivers   : 6
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 8
+ Total Traceable Variables  : 23
+ Total Scalar Nets and Variables : 112
+
+ Total Simulation Time: 0.327602 sec
+
+ Current Memory Usage: 509.235 Meg
+
+Tue Apr 19 04:27:34 2016
+

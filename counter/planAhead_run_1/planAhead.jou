@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# PlanAhead v14.2 (64-bit)
+# Build 194362 by xbuild on Fri Jul 20 18:52:11 MDT 2012
+# Start of session at: Wed May 25 16:12:24 2016
+# Process ID: 9620
+# Log file: C:/Users/Kirti Karan/Documents/verilog/counter/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Kirti Karan/Documents/verilog/counter/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/Kirti Karan/Documents/verilog/counter/pa.fromNetlist.tcl}
+startgroup
+set_property package_pin A7 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin M5 [get_ports {count[0]}]
+endgroup
+startgroup
+set_property package_pin M11 [get_ports {count[1]}]
+endgroup
+startgroup
+set_property package_pin P7 [get_ports {count[2]}]
+endgroup
+startgroup
+set_property package_pin P6 [get_ports {count[3]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {count[3]}]]
+set_property is_loc_fixed true [get_ports [list  {count[3]}]]
+save_design

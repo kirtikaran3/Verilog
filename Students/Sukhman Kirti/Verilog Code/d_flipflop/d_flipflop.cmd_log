@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/.Xilinx/d_flipflop/d_flipflop.xst" -ofn "C:/.Xilinx/d_flipflop/d_flipflop.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/d_flipflop/d_flipflop.xst" -ofn "C:/.Xilinx/d_flipflop/d_flipflop.syr" 

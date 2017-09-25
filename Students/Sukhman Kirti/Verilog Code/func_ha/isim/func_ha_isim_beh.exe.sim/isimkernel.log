@@ -1,0 +1,28 @@
+Command line:
+   func_ha_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49427
+
+Thu Apr 14 17:41:24 2016
+
+
+ Elaboration Time: 0.046801 sec
+
+ Current Memory Usage: 504.898 Meg
+
+ Total Signals          : 16
+ Total Nets             : 18
+ Total Signal Drivers   : 6
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 8
+ Total Traceable Variables  : 22
+ Total Scalar Nets and Variables : 104
+
+ Total Simulation Time: 0.062401 sec
+
+ Current Memory Usage: 504.898 Meg
+
+Thu Apr 14 17:42:13 2016
+

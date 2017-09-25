@@ -1,0 +1,23 @@
+# Reading C:/intelFPGA/16.1/modelsim_ase/tcl/vsim/pref.tcl
+# do {master1_test.fdo}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:29:07 on Apr 09,2017
+# vlog -reportprogress 300 master1.v 
+# -- Compiling module master1
+# 
+# Top level modules:
+# 	master1
+# End time: 14:29:08 on Apr 09,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:29:08 on Apr 09,2017
+# vlog -reportprogress 300 master1_test.v 
+# -- Compiling module master1_test
+# ** Error: (vlog-13069) master1_test.v(46): near ";": syntax error, unexpected ';'.
+# End time: 14:29:08 on Apr 09,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA/16.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./master1_test.fdo line 24
+# C:/intelFPGA/16.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog  "master1_test.v""

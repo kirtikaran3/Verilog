@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/.Xilinx/demux1to4/demux1to4.xst" -ofn "C:/.Xilinx/demux1to4/demux1to4.syr" 

@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/Kirti Karan/Documents/verilog/twodigit_onefile/twodigit_onefile.xst" -ofn "C:/Users/Kirti Karan/Documents/verilog/twodigit_onefile/twodigit_onefile.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 "twodigit_onefile.ngc" twodigit_onefile.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o twodigit_onefile_map.ncd twodigit_onefile.ngd twodigit_onefile.pcf 
+par -w -intstyle ise -ol high -t 1 twodigit_onefile_map.ncd twodigit_onefile.ncd twodigit_onefile.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml twodigit_onefile.twx twodigit_onefile.ncd -o twodigit_onefile.twr twodigit_onefile.pcf 
+bitgen -intstyle ise -f twodigit_onefile.ut twodigit_onefile.ncd 

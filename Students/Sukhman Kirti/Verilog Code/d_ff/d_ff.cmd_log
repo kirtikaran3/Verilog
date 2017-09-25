@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "C:/.Xilinx/d_ff/d_ff.xst" -ofn "C:/.Xilinx/d_ff/d_ff.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/d_ff/d_ff.xst" -ofn "C:/.Xilinx/d_ff/d_ff.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/d_ff/d_ff.xst" -ofn "C:/.Xilinx/d_ff/d_ff.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/d_ff/d_ff.xst" -ofn "C:/.Xilinx/d_ff/d_ff.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/d_ff/d_ff.xst" -ofn "C:/.Xilinx/d_ff/d_ff.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/d_ff/d_ff.xst" -ofn "C:/.Xilinx/d_ff/d_ff.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/d_ff/d_ff.xst" -ofn "C:/.Xilinx/d_ff/d_ff.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/d_ff/d_ff.xst" -ofn "C:/.Xilinx/d_ff/d_ff.syr" 

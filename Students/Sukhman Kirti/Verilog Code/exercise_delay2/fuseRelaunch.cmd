@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/.Xilinx/exercise_delay2/exercisetestbench_isim_beh.exe" -prj "C:/.Xilinx/exercise_delay2/exercisetestbench_beh.prj" "work.exercisetestbench" "work.glbl" 

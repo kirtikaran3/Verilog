@@ -1,0 +1,235 @@
+xst -intstyle ise -ifn "E:/final_i2c/lcd/LCD.xst" -ofn "E:/final_i2c/lcd/LCD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF_LCD.ucf -p xc3s100e-cp132-5 LCD.ngc LCD.ngd  
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "E:/final_i2c/lcd/lcd.xst" -ofn "E:/final_i2c/lcd/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD_UCF.ucf -p xc3s100e-cp132-5 lcd.ngc lcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf LCD_UCF.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 

@@ -1,0 +1,111 @@
+ISim log file
+Running: C:\.Xilinx\ring_counter_testbench\ring_countertestbench_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/.Xilinx/ring_counter_testbench/ring_countertestbench_isim_beh.wdb 
+ISim P.28xd (signature 0xa0883be4)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                   0q=1000,clk=1,clr=1
+                  10q=1000,clk=1,clr=1
+                  20q=1000,clk=1,clr=1
+                  30q=1000,clk=1,clr=1
+                  40q=1000,clk=1,clr=1
+                  50q=1000,clk=1,clr=0
+                  60q=1000,clk=1,clr=0
+                  70q=1000,clk=1,clr=0
+                  80q=1000,clk=1,clr=0
+                  90q=1000,clk=1,clr=0
+                 100q=1000,clk=1,clr=0
+                 110q=1000,clk=1,clr=0
+                 120q=1000,clk=1,clr=0
+                 130q=1000,clk=1,clr=0
+                 140q=1000,clk=1,clr=0
+                 150q=1000,clk=1,clr=0
+                 160q=1000,clk=1,clr=0
+                 170q=1000,clk=1,clr=0
+                 180q=1000,clk=1,clr=0
+                 190q=1000,clk=1,clr=0
+                 200q=1000,clk=1,clr=0
+                 210q=1000,clk=1,clr=0
+                 220q=1000,clk=1,clr=0
+                 230q=1000,clk=1,clr=0
+                 240q=1000,clk=1,clr=0
+                 250q=1000,clk=1,clr=0
+                 260q=1000,clk=1,clr=0
+                 270q=1000,clk=1,clr=0
+                 280q=1000,clk=1,clr=0
+                 290q=1000,clk=1,clr=0
+                 300q=1000,clk=1,clr=0
+                 310q=1000,clk=1,clr=0
+                 320q=1000,clk=1,clr=0
+                 330q=1000,clk=1,clr=0
+                 340q=1000,clk=1,clr=0
+                 350q=1000,clk=1,clr=0
+                 360q=1000,clk=1,clr=0
+                 370q=1000,clk=1,clr=0
+                 380q=1000,clk=1,clr=0
+                 390q=1000,clk=1,clr=0
+                 400q=1000,clk=1,clr=0
+                 410q=1000,clk=1,clr=0
+                 420q=1000,clk=1,clr=0
+                 430q=1000,clk=1,clr=0
+                 440q=1000,clk=1,clr=0
+                 450q=1000,clk=1,clr=0
+                 460q=1000,clk=1,clr=0
+                 470q=1000,clk=1,clr=0
+                 480q=1000,clk=1,clr=0
+                 490q=1000,clk=1,clr=0
+                 500q=1000,clk=1,clr=0
+                 510q=1000,clk=1,clr=0
+                 520q=1000,clk=1,clr=0
+                 530q=1000,clk=1,clr=0
+                 540q=1000,clk=1,clr=0
+                 550q=1000,clk=1,clr=0
+                 560q=1000,clk=1,clr=0
+                 570q=1000,clk=1,clr=0
+                 580q=1000,clk=1,clr=0
+                 590q=1000,clk=1,clr=0
+                 600q=1000,clk=1,clr=0
+                 610q=1000,clk=1,clr=0
+                 620q=1000,clk=1,clr=0
+                 630q=1000,clk=1,clr=0
+                 640q=1000,clk=1,clr=0
+                 650q=1000,clk=1,clr=0
+                 660q=1000,clk=1,clr=0
+                 670q=1000,clk=1,clr=0
+                 680q=1000,clk=1,clr=0
+                 690q=1000,clk=1,clr=0
+                 700q=1000,clk=1,clr=0
+                 710q=1000,clk=1,clr=0
+                 720q=1000,clk=1,clr=0
+                 730q=1000,clk=1,clr=0
+                 740q=1000,clk=1,clr=0
+                 750q=1000,clk=1,clr=0
+                 760q=1000,clk=1,clr=0
+                 770q=1000,clk=1,clr=0
+                 780q=1000,clk=1,clr=0
+                 790q=1000,clk=1,clr=0
+                 800q=1000,clk=1,clr=0
+                 810q=1000,clk=1,clr=0
+                 820q=1000,clk=1,clr=0
+                 830q=1000,clk=1,clr=0
+                 840q=1000,clk=1,clr=0
+                 850q=1000,clk=1,clr=0
+                 860q=1000,clk=1,clr=0
+                 870q=1000,clk=1,clr=0
+                 880q=1000,clk=1,clr=0
+                 890q=1000,clk=1,clr=0
+                 900q=1000,clk=1,clr=0
+                 910q=1000,clk=1,clr=0
+                 920q=1000,clk=1,clr=0
+                 930q=1000,clk=1,clr=0
+                 940q=1000,clk=1,clr=0
+                 950q=1000,clk=1,clr=0
+                 960q=1000,clk=1,clr=0
+                 970q=1000,clk=1,clr=0
+                 980q=1000,clk=1,clr=0
+                 990q=1000,clk=1,clr=0
+                1000q=1000,clk=1,clr=0

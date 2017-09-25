@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/.Xilinx/iniial_eg/initial_eg.xst" -ofn "C:/.Xilinx/iniial_eg/initial_eg.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/iniial_eg/initial_eg.xst" -ofn "C:/.Xilinx/iniial_eg/initial_eg.syr" 

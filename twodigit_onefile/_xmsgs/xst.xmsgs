@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">twodigit_onefile.v</arg>&quot; line <arg fmt="%d" index="2">121</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">twodigit_onefile.v</arg>&quot; line <arg fmt="%d" index="2">122</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">twodigit_onefile.v</arg>&quot; line <arg fmt="%d" index="2">123</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">twodigit_onefile.v</arg>&quot; line <arg fmt="%d" index="2">124</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">twodigit_onefile.v</arg>&quot; line <arg fmt="%d" index="2">125</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">twodigit_onefile.v</arg>&quot; line <arg fmt="%d" index="2">126</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">twodigit_onefile.v</arg>&quot; line <arg fmt="%d" index="2">127</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">twodigit_onefile.v</arg>&quot; line <arg fmt="%d" index="2">128</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">twodigit_onefile.v</arg>&quot; line <arg fmt="%d" index="2">129</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="new" >&quot;<arg fmt="%s" index="1">twodigit_onefile.v</arg>&quot; line <arg fmt="%d" index="2">130</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="info" file="Xst" num="2146" delta="new" >In block &lt;<arg fmt="%s" index="1">twodigit_onefile</arg>&gt;, <arg fmt="%s" index="2">Counter</arg> &lt;<arg fmt="%s" index="3">delay</arg>&gt; </msg>
+
+<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

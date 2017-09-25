@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "C:/.Xilinx/encoder/encoder.xst" -ofn "C:/.Xilinx/encoder/encoder.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/encoder/encoder.xst" -ofn "C:/.Xilinx/encoder/encoder.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/encoder/encoder.xst" -ofn "C:/.Xilinx/encoder/encoder.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/encoder/encoder.xst" -ofn "C:/.Xilinx/encoder/encoder.syr" 

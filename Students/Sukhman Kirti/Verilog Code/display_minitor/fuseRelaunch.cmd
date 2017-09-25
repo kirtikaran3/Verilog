@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/.Xilinx/display_minitor/display_monitor_isim_beh.exe" -prj "C:/.Xilinx/display_minitor/display_monitor_beh.prj" "work.display_monitor" "work.glbl" 

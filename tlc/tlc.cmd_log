@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/kirti/Documents/verilog/MyTestingGround/tlc/tlc.xst" -ofn "C:/Users/kirti/Documents/verilog/MyTestingGround/tlc/tlc.syr" 

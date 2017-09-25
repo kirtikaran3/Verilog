@@ -1,0 +1,18 @@
+xst -intstyle ise -ifn "C:/Users/Kirti Karan/Documents/verilog/binary/button_binary.xst" -ofn "C:/Users/Kirti Karan/Documents/verilog/binary/button_binary.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 "button_binary.ngc" button_binary.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o button_binary_map.ncd button_binary.ngd button_binary.pcf 
+par -w -intstyle ise -ol high -t 1 button_binary_map.ncd button_binary.ncd button_binary.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml button_binary.twx button_binary.ncd -o button_binary.twr button_binary.pcf 
+bitgen -intstyle ise -f button_binary.ut button_binary.ncd 
+xst -intstyle ise -ifn "C:/Users/Kirti Karan/Documents/verilog/binary/button_binary.xst" -ofn "C:/Users/Kirti Karan/Documents/verilog/binary/button_binary.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc button_binary.ucf -p xc3s100e-cp132-4 "button_binary.ngc" button_binary.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o button_binary_map.ncd button_binary.ngd button_binary.pcf 
+par -w -intstyle ise -ol high -t 1 button_binary_map.ncd button_binary.ncd button_binary.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml button_binary.twx button_binary.ncd -o button_binary.twr button_binary.pcf -ucf button_binary.ucf 
+bitgen -intstyle ise -f button_binary.ut button_binary.ncd 
+xst -intstyle ise -ifn "C:/Users/Kirti Karan/Documents/verilog/binary/button_binary.xst" -ofn "C:/Users/Kirti Karan/Documents/verilog/binary/button_binary.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc button_binary.ucf -p xc3s100e-cp132-4 "button_binary.ngc" button_binary.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o button_binary_map.ncd button_binary.ngd button_binary.pcf 
+par -w -intstyle ise -ol high -t 1 button_binary_map.ncd button_binary.ncd button_binary.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml button_binary.twx button_binary.ncd -o button_binary.twr button_binary.pcf -ucf button_binary.ucf 
+bitgen -intstyle ise -f button_binary.ut button_binary.ncd 

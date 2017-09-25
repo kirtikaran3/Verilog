@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "C:/.Xilinx/task_counter/task_counter.xst" -ofn "C:/.Xilinx/task_counter/task_counter.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/task_counter/task_counter.xst" -ofn "C:/.Xilinx/task_counter/task_counter.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/task_counter/task_counter.xst" -ofn "C:/.Xilinx/task_counter/task_counter.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/task_counter/task_counter.xst" -ofn "C:/.Xilinx/task_counter/task_counter.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/task_counter/task_counter.xst" -ofn "C:/.Xilinx/task_counter/task_counter.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/task_counter/task_counter.xst" -ofn "C:/.Xilinx/task_counter/task_counter.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/task_counter/task_counter.xst" -ofn "C:/.Xilinx/task_counter/task_counter.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/task_counter/task_counter.xst" -ofn "C:/.Xilinx/task_counter/task_counter.syr" 

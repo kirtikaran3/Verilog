@@ -1,0 +1,20 @@
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/kirti/Documents/verilog/nsqrsum/tb_sq_isim_beh.exe -prj C:/Users/kirti/Documents/verilog/nsqrsum/tb_sq_beh.prj work.tb_sq work.glbl 
+ISim P.28xd (signature 0xa0883be4)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/kirti/Documents/verilog/nsqrsum/sq_sum.v" into library work
+WARNING:HDLCompiler:98 - "C:/Users/kirti/Documents/verilog/nsqrsum/sq_sum.v" Line 26: out was previously declared with a range
+Analyzing Verilog file "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "C:/Users/kirti/Documents/verilog/nsqrsum/sq_sum.v" Line 84: Size mismatch in connection of port <out>. Formal port size is 1-bit while actual signal size is 8-bit.
+Completed static elaboration
+Compiling module sq_sum
+Compiling module tb_sq
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 3 Verilog Units
+Built simulation executable C:/Users/kirti/Documents/verilog/nsqrsum/tb_sq_isim_beh.exe
+Fuse Memory Usage: 28364 KB
+Fuse CPU Usage: 467 ms

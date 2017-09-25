@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\final_i2c\lcd\lcd.ncd
+OUTFILE=E:\final_i2c\lcd\lcd.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=E:\final_i2c\lcd
+LICENSE=WebPack
+USER_INFO=177399848_0_0_938

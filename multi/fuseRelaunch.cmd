@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/Kirti Karan/Documents/verilog/multi/multi_isim_beh.exe" -prj "C:/Users/Kirti Karan/Documents/verilog/multi/multi_beh.prj" "work.multi" "work.glbl" 
